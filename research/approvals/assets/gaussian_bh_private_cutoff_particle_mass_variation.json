@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_private_cutoff_particle_mass_variation",
+  "digest": "91d4c3370d05e8957f24d7a89e1c299f7622e9633ddeb40fbecdd032d8bbd08e",
+  "approvedAt": "2026-11-09T09:35:36.379Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "8345cf59553f81f078aa75b8209e82e7b444527650ffec26a456254734403e01",
+  "extension_version": "0.0.4"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "spherical_isotropic_directional_population",
+  "digest": "2cf09d24200523b06e3ec5c57ddc0f185068f8e5df130b2cae9229e6062e3b39",
+  "approvedAt": "2026-11-04T23:35:55.553Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "2cf09d24200523b06e3ec5c57ddc0f185068f8e5df130b2cae9229e6062e3b39",
+  "extension_version": "0.0.4"
+}

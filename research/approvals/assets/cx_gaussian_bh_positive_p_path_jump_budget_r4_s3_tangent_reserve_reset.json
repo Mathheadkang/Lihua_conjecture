@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "cx_gaussian_bh_positive_p_path_jump_budget_r4_s3_tangent_reserve_reset",
+  "digest": "b1ef5bf2d6a53c0003efa648d409052ed7848c42746036ffc891c0fb48a6c3ab",
+  "approvedAt": "2026-11-09T21:47:46.175Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "b1ef5bf2d6a53c0003efa648d409052ed7848c42746036ffc891c0fb48a6c3ab",
+  "extension_version": "0.0.4"
+}

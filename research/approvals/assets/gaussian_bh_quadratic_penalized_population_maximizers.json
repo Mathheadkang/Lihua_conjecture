@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_quadratic_penalized_population_maximizers",
+  "digest": "e3c8ac133639d54773b7c83f1b108adcf96601aced0c5f7931d3b09a32b6d76a",
+  "approvedAt": "2026-11-09T04:08:04.445Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "f63154e3e80d27877f3af87a036cd4742c762111af24791b4523d3f69bfe3ea5",
+  "extension_version": "0.0.4"
+}

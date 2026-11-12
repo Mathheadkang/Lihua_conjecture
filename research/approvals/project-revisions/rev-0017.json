@@ -1,0 +1,46 @@
+{
+  "revision": 17,
+  "digest": "e70b426c6d3aee8833d8909c73d2ec316cfef5d83ffefd54e6c157c0988b7a9d",
+  "facets": {
+    "problem": "d889bdc0e9dad247e8fb44b02f6064554302fbf0e4e1dd167727097396a9afe6",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "28ef429e395f1572ca9739b578e50abcb57a585b3fd87ec2f03c447db886ded7",
+    "required": "a5fc51b81d511b2337517330b137a9096d95e05a9f75346174971419f3cca37b"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_mixed_coherence_trace_budget",
+      "role": "Auxiliary two-scale repair from the second autonomous reassessment - test the mixed square-root and entropy-linear Mills trace budget while preserving both main goals and the refuted earlier budget"
+    },
+    {
+      "id": "gaussian_bh_correlated_clone_first_variation",
+      "role": "Supporting finite-model identity for actual-rank correlated-clone perturbations, preserving signed FDP face jumps for a future extremal comparison"
+    },
+    {
+      "id": "gaussian_bh_growing_clone_compensated_variation",
+      "role": "Supporting rank-sensitive compensated private-clone variation with copy count tending to infinity before noise vanishes, restricted to a nonzero chosen mean"
+    },
+    {
+      "id": "gaussian_bh_rare_clone_mills_variation",
+      "role": "Supporting inverse-Mills rank variation from rare downward mean clones, allowing zero-mean true nulls and recording dimension-independent parameter-measure costs"
+    },
+    {
+      "id": "gaussian_bh_common_loading_wasserstein_fdr_continuity",
+      "role": "Supporting continuity of the full population BH FDR under Wasserstein parameter convergence with a fixed common Gaussian loading, including microscopic ranks and competing largest crossings"
+    },
+    {
+      "id": "gaussian_bh_diffuse_fold_deformation_recovery",
+      "role": "Supporting sublinear-cost signed deformation recovery at an isolated diffuse Gaussian BH fold, with canonical finite competitors and a conditional near-maximality balance"
+    }
+  ],
+  "approvedAt": "2026-11-09T01:33:20.182Z",
+  "performed_by": "unknown"
+}

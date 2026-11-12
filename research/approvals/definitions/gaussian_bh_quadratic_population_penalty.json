@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "gaussian_bh_quadratic_population_penalty",
+  "digest": "9ebb5b6fa30883953d064bed1b9430cbb9b1601826344babe1526d4c88959213",
+  "approvedAt": "2026-11-09T03:44:48.020Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "9ebb5b6fa30883953d064bed1b9430cbb9b1601826344babe1526d4c88959213",
+  "extension_version": "0.0.4"
+}

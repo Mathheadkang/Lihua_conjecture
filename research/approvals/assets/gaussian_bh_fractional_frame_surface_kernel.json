@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_fractional_frame_surface_kernel",
+  "digest": "3cb9bb76cf720062571ac516891447477e9e2ded8e005252e0d93cf0bae8668a",
+  "approvedAt": "2026-11-10T20:32:56.918Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "73320a924701f1ff16a1f07678da1f8aec14bcaa701710f663f9a9f5b0d67369",
+  "extension_version": "0.0.4"
+}

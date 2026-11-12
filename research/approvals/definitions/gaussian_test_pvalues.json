@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "gaussian_test_pvalues",
+  "digest": "77bd992c815e7093fd72c2543d655df56c15eef2bf6240d46d729bce9f86ca50",
+  "approvedAt": "2026-11-04T07:09:00.755Z",
+  "source": "dashboard",
+  "performed_by": "mingshuostat@gmail.com",
+  "statement": "77bd992c815e7093fd72c2543d655df56c15eef2bf6240d46d729bce9f86ca50",
+  "extension_version": "0.0.4"
+}

@@ -1,0 +1,30 @@
+slug: bernhard_rapaport1995_danskin
+title: On a theorem of Danskin with an application to a theorem of Von Neumann-Sion
+authors:
+  - Pierre Bernhard
+  - Alain Rapaport
+year: 1995
+doi: 10.1016/0362-546X(94)00186-L
+source_url: https://www-sop.inria.fr/members/Pierre.Bernhard/publications/berrap95.pdf
+publication_record: https://doi.org/10.1016/0362-546X(94)00186-L
+markdown: paper.md
+extraction:
+  method: web-pdf-embedded-text-scoped-paraphrase
+  generated_at: 2026-11-09T08:56:42Z
+  reviewed: false
+  scope: Theorem 1 and its preceding hypotheses, printed p. 1163, PDF page 1
+  limitations:
+    - PARTIAL mathematical working extraction, not a complete or verbatim transcription.
+    - Local raw PDF download was blocked by the shell network policy; no local source PDF or checksum is available. Import is incomplete in this respect.
+    - Web PDF text was read; screenshot invocation exposed no viewable image payload. Formula typography has not been visually checked.
+    - Joint continuity of the first gradient is explicitly imposed in the extracted sufficient smooth specialization.
+    - Other sections, including D1, D2 and the minimax application, are omitted.
+citation_check:
+  mode: scoped-primary-source
+  checked_at: 2026-11-09
+  metadata_evidence: Live Crossref DOI record, corroborated by PDF first-page bibliographic header
+  matched_fields: [title, authors, year, journal, volume, issue, pages, doi, article_type]
+  claim_evidence: Author-hosted published PDF, Theorem 1 and hypotheses on printed p. 1163
+  limitations:
+    - Google Scholar was inaccessible; direct publisher page returned HTTP 403.
+    - No whole-bibliography or retraction audit was performed.

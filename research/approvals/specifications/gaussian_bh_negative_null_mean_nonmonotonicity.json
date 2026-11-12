@@ -1,0 +1,10 @@
+{
+  "kind": "specification",
+  "target": "gaussian_bh_negative_null_mean_nonmonotonicity",
+  "digest": "9f2cf4094f405ea7ab6e91647d7c2eae547e583022c0a0ab42e0071b8242fa50",
+  "approvedAt": "2026-11-04T12:28:51.938Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "9f2cf4094f405ea7ab6e91647d7c2eae547e583022c0a0ab42e0071b8242fa50",
+  "extension_version": "0.0.4"
+}

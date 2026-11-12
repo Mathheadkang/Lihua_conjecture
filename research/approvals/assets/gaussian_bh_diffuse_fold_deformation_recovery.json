@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_diffuse_fold_deformation_recovery",
+  "digest": "2f4025b5e4f6278a2e619d871eadc69e90d36c17ca8fc00335021c3af7f0380d",
+  "approvedAt": "2026-11-09T02:14:24.032Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "c94a3fdf2ffe058f0be84badf476c4d08154e9cac43cf7bcae563b030a494568",
+  "extension_version": "0.0.4"
+}

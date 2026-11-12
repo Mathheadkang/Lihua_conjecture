@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_one_sided_free_central_window_core",
+  "digest": "38e61bee90de14f764a934d76dd4d4e7674184f08673974b47cd279568d2b39b",
+  "approvedAt": "2026-11-06T23:17:21.420Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "779c4649ca5118819e8dfa6dbce8e2a5f940384b9968185d078f02aeffa659b9",
+  "extension_version": "0.0.4"
+}

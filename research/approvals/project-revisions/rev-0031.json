@@ -1,0 +1,34 @@
+{
+  "revision": 31,
+  "digest": "2d105b91a3343628dfae0c4dd8a62c27c42a389edf4fdaa3ef989cb0672dcca2",
+  "facets": {
+    "problem": "d889bdc0e9dad247e8fb44b02f6064554302fbf0e4e1dd167727097396a9afe6",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "dd626044e7311b8ecfeab3c5f04c691d967eb2d27e0bc1f0cb7d823f134c568f",
+    "required": "168d47fb5d40cc7294fe6ec58e69ecfef00dee399c7caf6c3b84e788ffec2e26"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_frozen_ray_independent_equal_weights",
+      "role": "Researcher-authorized intermediate - exact frozen-ray sharp truncated moment and maximal tail for iid equal-weight directions"
+    },
+    {
+      "id": "gaussian_frozen_ray_two_level_tree",
+      "role": "Researcher-authorized intermediate - exact frozen-ray sharp truncated moment and maximal tail for two-level Gaussian trees"
+    },
+    {
+      "id": "gaussian_bh_one_sided_private_noise_floor_order",
+      "role": "Researcher-authorized intermediate - structured-class S with a fixed private-noise floor and no complexity restriction"
+    }
+  ],
+  "approvedAt": "2026-11-11T00:25:01.357Z",
+  "performed_by": "unknown"
+}

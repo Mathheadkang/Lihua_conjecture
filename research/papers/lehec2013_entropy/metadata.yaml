@@ -1,0 +1,32 @@
+slug: lehec2013_entropy
+title: Representation formula for the entropy and functional inequalities
+authors:
+  - Joseph Lehec
+year: 2013
+journal: Annales de l'I.H.P. Probabilités et statistiques
+volume: 49
+number: 3
+pages: 885-899
+doi: 10.1214/11-AIHP464
+source_url: https://doi.org/10.1214/11-AIHP464
+source_pdf_url: https://www.numdam.org/item/10.1214/11-AIHP464.pdf
+source_pdf_local: research-local/raw_papers/lehec2013_entropy.pdf
+markdown: paper.md
+extraction:
+  method: embedded-text with native PDFKit; scoped mathematical paraphrase
+  generated_at: 2026-11-08T09:51:28+00:00
+  source_sha256: 70a074f041f75d27bfe8be3e45273a383ceb99d63fa4950acaca1b9694e4f7ca
+  reviewed: false
+  total_pdf_pages: 15
+  visually_checked_pdf_pages: [3, 4]
+  visually_checked_printed_pages: [887, 888]
+  scope: Section 2.2 Theorem 2, with a warning about the separate regularity hypotheses in Section 2.5
+  limitations:
+    - This is a scoped working representation, not a complete transcription of the 15-page paper.
+    - Formulas and conditions of Theorem 2 were visually checked; the source labels its proof a sketch and cites external stochastic-calculus results.
+    - No mathematical approval, whole-paper proof verification or retraction audit is asserted.
+citation_check:
+  mode: scoped-primary-source
+  checked_on: 2026-11-08
+  record_url: https://numdam.org/articles/10.1214/11-AIHP464/
+  matched_fields: [title, author, year, journal, volume, number, pages, doi]

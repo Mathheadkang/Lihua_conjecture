@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_common_loading_wasserstein_fdr_continuity",
+  "digest": "3d22f95b19081b7621747bb6960ecb5ca2e430a59a4f390210d301876ae6152f",
+  "approvedAt": "2026-11-09T01:19:55.256Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "c7c3378df201906f905a39cc98232cebf031e1b6084f86c0a75c836910b8f564",
+  "extension_version": "0.0.4"
+}

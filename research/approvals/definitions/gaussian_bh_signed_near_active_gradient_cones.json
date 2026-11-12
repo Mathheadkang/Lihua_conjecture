@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "gaussian_bh_signed_near_active_gradient_cones",
+  "digest": "daef18b4707d34b07e148fff17d26c059ab590109aab8317dc11d00224f3a9e0",
+  "approvedAt": "2026-11-09T07:41:09.614Z",
+  "source": "auto",
+  "performed_by": "mingshuostat@gmail.com",
+  "statement": "daef18b4707d34b07e148fff17d26c059ab590109aab8317dc11d00224f3a9e0",
+  "extension_version": "0.0.4"
+}

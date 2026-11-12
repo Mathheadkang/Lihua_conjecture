@@ -1,0 +1,30 @@
+{
+  "revision": 13,
+  "digest": "a4edb7586e87c47a828e95294ba4c0a428101fd339ff486909d33f0260006570",
+  "facets": {
+    "problem": "d889bdc0e9dad247e8fb44b02f6064554302fbf0e4e1dd167727097396a9afe6",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "9c9a772462065d58d3eb2e2af08d5e80c824b7ea3ad1bf972b0197fee064c685",
+    "required": "5db489b187e1fb609f2a31cb5d49dbcb7ee7b6c57352f1e5345d4ef9b90b6cb9"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_mixed_coherence_trace_budget",
+      "role": "Auxiliary two-scale repair from the second autonomous reassessment - test the mixed square-root and entropy-linear Mills trace budget while preserving both main goals and the refuted earlier budget"
+    },
+    {
+      "id": "gaussian_bh_correlated_clone_first_variation",
+      "role": "Supporting finite-model identity for actual-rank correlated-clone perturbations, preserving signed FDP face jumps for a future extremal comparison"
+    }
+  ],
+  "approvedAt": "2026-11-08T22:01:23.886Z",
+  "performed_by": "unknown"
+}

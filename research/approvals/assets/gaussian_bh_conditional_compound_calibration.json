@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_conditional_compound_calibration",
+  "digest": "48b4673e4c09432376b78d588697001785138b133cfa533ba1e3747a1073afbc",
+  "approvedAt": "2026-11-11T16:32:44.680Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "72c9382ceb1913470689b87acb600c14e6c36c033da80c5f6d7559dceeaafc01",
+  "extension_version": "0.0.4"
+}

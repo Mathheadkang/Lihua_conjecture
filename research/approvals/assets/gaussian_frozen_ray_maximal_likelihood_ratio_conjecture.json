@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_frozen_ray_maximal_likelihood_ratio_conjecture",
+  "digest": "6ead14fa2488e60475cf2c3f8d05592666ae28d3bf23c28b0047c6eacd43fcbe",
+  "approvedAt": "2026-11-10T22:29:15.632Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "6ead14fa2488e60475cf2c3f8d05592666ae28d3bf23c28b0047c6eacd43fcbe",
+  "extension_version": "0.0.4"
+}

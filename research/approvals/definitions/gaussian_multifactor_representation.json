@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "gaussian_multifactor_representation",
+  "digest": "e3a61244f476941be96780294a5d26af63dd415aa7462c2662601bf6aeb086fe",
+  "approvedAt": "2026-11-04T07:09:02.149Z",
+  "source": "dashboard",
+  "performed_by": "mingshuostat@gmail.com",
+  "statement": "e3a61244f476941be96780294a5d26af63dd415aa7462c2662601bf6aeb086fe",
+  "extension_version": "0.0.4"
+}

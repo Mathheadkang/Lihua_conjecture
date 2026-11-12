@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_two_sided_exact_pivotal_identity",
+  "digest": "88b4b310c73f81b80c596b398aeac5ca2efbb196746818773fa464dea37aef0b",
+  "approvedAt": "2026-11-06T20:39:53.821Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "10fd42aac96d6f560ddc31272941b5f90f8a40eb9cbddd044801e18b7016e6b1",
+  "extension_version": "0.0.4"
+}

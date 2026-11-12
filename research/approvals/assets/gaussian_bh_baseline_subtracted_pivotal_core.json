@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_baseline_subtracted_pivotal_core",
+  "digest": "2bddfe7cd07dbced247ac61b831f753101e28eb4bcf4b57221afe2a0350f8b1b",
+  "approvedAt": "2026-11-06T21:18:56.214Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "182210875024e41e07afd86320271d77d4c3101bb674953cf99e16eee40678ba",
+  "extension_version": "0.0.4"
+}

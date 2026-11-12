@@ -1,0 +1,22 @@
+{
+  "revision": 33,
+  "digest": "958af947a146076a0631472d1b026d90d4f74532931fd2e996b09e1b45e6d5a6",
+  "facets": {
+    "problem": "acc272aa1fe27c4d83f4651bd23f41911edd9c34267fe24adf319452a44c78dc",
+    "scope": "d56a075fe88429d76cd22b1f025ad84c8b2a16986145de2df95f1d89dcb434f5",
+    "contribution": "5c005e750ba93bfe27f4445af937a58cce23e26321e4058c3ae1b1abc4138c92",
+    "required": "5b4ddf3834f3c6841e983f1f39df0a390ff6505d7ddec225b6a9e522e0223d14"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Primary mathematical target - unrestricted one-sided universal expected-FDR order bound"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Final deliverable - unrestricted two-sided order bound, allowing the verified signed-duplication corollary"
+    }
+  ],
+  "approvedAt": "2026-11-11T09:15:17.741Z",
+  "performed_by": "unknown"
+}

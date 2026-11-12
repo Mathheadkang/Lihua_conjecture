@@ -1,0 +1,29 @@
+slug: panchenko2009_dovbysh_sudakov
+title: On the Dovbysh-Sudakov representation result
+authors: [Dmitry Panchenko]
+year: 2009
+source_url: https://arxiv.org/abs/0905.1524v1
+source_pdf_url: https://arxiv.org/pdf/0905.1524v1
+source_version: arXiv:0905.1524v1
+source_pdf_local: research-local/raw_papers/panchenko2009_dovbysh_sudakov.pdf
+markdown: paper.md
+extraction:
+  method: embedded-text via macOS PDFKit; manual mathematical normalization against rendered source pages
+  generated_at: 2026-11-09T04:58:18.505126+00:00
+  source_sha256: 8b28ce650edb003721f6bed8cbfc308364e115309075a3567b063a298f80479c
+  reviewed: false
+  scope: Section 1 definitions and equations (1.1)-(1.2), printed pp. 1-2, and Proposition 1 on printed p. 2
+  visually_checked_pages: [1, 2]
+  limitations:
+    - Scoped paraphrased transcription only; the remainder and proof are not transcribed.
+    - PDFKit drops some subscripts and prime glyphs; displayed formulas were manually normalized against the rendered PDF.
+    - Nonnegative correction also checked in the paragraph immediately before Lemma 3 on printed p. 6, without importing its proof.
+    - No measurable choice of component directing measures is asserted by the extracted node.
+    - Independent node verification and researcher approval remain pending.
+citation_check:
+  checked_at: 2026-11-08
+  route: scoped primary-source verification; Google Scholar unavailable, official arXiv record and versioned PDF used
+  checked_fields: [title, author, preprint_year, arxiv_identifier, version, version_date, bibtex_type, theorem_location]
+  publication_relation: arXiv record lists Electronic Communications in Probability 15 (2010), 330-338; the imported scientific source is specifically the 2009 v1 preprint.
+  whole_bibliography_audit: false
+  retraction_audit: false

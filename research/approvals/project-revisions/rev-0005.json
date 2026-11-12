@@ -1,0 +1,50 @@
+{
+  "revision": 5,
+  "digest": "4fad7f54f0c02e163d27d2f7666671c430dfffd17ee74561730e169b9a082bf3",
+  "facets": {
+    "problem": "2198d70f1d9ca541c054b01e0b47d5ce8b17daae8498f84af5c4640da9163740",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "20dfb39ea8fa4c04ad4346decca4cfc2afdbdf2bdf4e76c4ff2fa59e1cf04cf4",
+    "required": "0b2bd07a3c266901c2c841d98f0286fa05fe7dd6150b3a6f3597556a9cf60a02"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "multifactor_radial_fdr_bounds",
+      "role": "Supporting finite-level radial bounds for both test types, distinct from the unrestricted targets"
+    },
+    {
+      "id": "slow_factor_dimension_one_sided_sharpness",
+      "role": "Supporting sharp one-sided theorem for slowly growing Gaussian factor dimension"
+    },
+    {
+      "id": "directional_entropy_one_sided_fdr_bound",
+      "role": "Supporting one-sided bound in terms of null-loading directional entropy"
+    },
+    {
+      "id": "gaussian_bh_negative_null_mean_nonmonotonicity",
+      "role": "Supporting explicit Gaussian construction refuting coordinatewise local monotonicity in negative null means"
+    },
+    {
+      "id": "gaussian_bh_two_sided_sharp_upper",
+      "role": "Deferred future sharp-constant target, preserved with its history and excluded from current-phase acceptance"
+    },
+    {
+      "id": "gaussian_bh_one_sided_sharp_upper",
+      "role": "Deferred future sharp-constant target, preserved with its history and excluded from current-phase acceptance"
+    },
+    {
+      "id": "spherical_isotropic_population_bh_bound",
+      "role": "Supporting uniform-in-d population bound for isotropic Gaussian directional mixtures, without a finite-vector implication"
+    }
+  ],
+  "approvedAt": "2026-11-06T23:23:19.044Z",
+  "performed_by": "unknown"
+}

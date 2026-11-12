@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_conditional_tail_density_replica_bound",
+  "digest": "3fbfe5361ae2d2aa7988e5b619e55acacf3b2de68e26665ef9fa7baa278a541b",
+  "approvedAt": "2026-11-07T01:09:42.980Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "d962a0c4c2ebebb96a5dc8b28cb1e9b4f8c265c0b7f73aedb2d43016b25043f7",
+  "extension_version": "0.0.4"
+}

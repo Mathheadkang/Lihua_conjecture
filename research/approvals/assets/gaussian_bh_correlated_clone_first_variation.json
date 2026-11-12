@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_correlated_clone_first_variation",
+  "digest": "0f3b239708f05f7f5d7611ba233d0310cb0cf2edefb78163df57aff1eb16133a",
+  "approvedAt": "2026-11-08T22:35:20.357Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "680547805d2575723444c5de508a946ed17ed1f6ae88a68bfd490ee4a27dda26",
+  "extension_version": "0.0.4"
+}

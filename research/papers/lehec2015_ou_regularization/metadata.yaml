@@ -1,0 +1,31 @@
+slug: lehec2015_ou_regularization
+title: Regularization in L1 for the Ornstein–Uhlenbeck semigroup
+authors:
+  - Joseph Lehec
+year: 2015
+source_url: https://arxiv.org/abs/1505.04083v1
+source_pdf_url: https://arxiv.org/pdf/1505.04083v1
+source_version: arXiv:1505.04083v1
+source_pdf_local: research-local/raw_papers/lehec2015_ou_regularization.pdf
+markdown: paper.md
+extraction:
+  method: embedded-text PDFKit with scoped mathematical normalization checked against rendered PDF
+  generated_at: 2026-11-11T00:32:10.214021+00:00
+  source_sha256: "9d6050bad9c4a57302e146186f960af497eb6c7629b5401642dd6748bbd1194b"
+  source_pages: 12
+  retained_pages: [1, 3]
+  visually_checked_pages: [1, 3]
+  reviewed: false
+  limitations:
+    - Partial transcription; omitted page content and proofs are explicitly marked.
+    - Embedded-text extraction loses some mathematical glyphs; retained formulas were checked visually.
+    - Official arXiv v1 submission date is 15 May 2015 but the served PDF title page prints 7 May 2019; exact file is identified by checksum.
+    - Only Theorems 1 and 3 and equation (1) are extracted; Lemma 2 proof and maximal-function transfers are not verified.
+    - Nodes are draft and await independent verify_node; visual/source checking is not proof verification or researcher approval.
+citation_check:
+  scope: scoped primary-source check
+  record: https://arxiv.org/abs/1505.04083v1
+  checked_fields: [author, title, preprint_year, arxiv_identifier, version, submission_date, reference_type, theorem_location]
+  scientific_locations: equation (1) p. 1; Section 2 Theorems 1 and 3 p. 3
+  whole_bibliography_audit: false
+  retraction_audit: false

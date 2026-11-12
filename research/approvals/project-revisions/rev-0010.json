@@ -1,0 +1,26 @@
+{
+  "revision": 10,
+  "digest": "c2256c6650186a2b3d5df76b37b1428ea12560bedc226dfcf6ccb5b55de37fe9",
+  "facets": {
+    "problem": "d889bdc0e9dad247e8fb44b02f6064554302fbf0e4e1dd167727097396a9afe6",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "9311748dfc22255f2fd7b83c33c395b0d12a80abd593a6d08df93c6e7ef7cbec",
+    "required": "5dd1ec11d962da738a910ca183999bc33fc0136d10610611a365c65dcea65e5c"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_entropy_coherence_trace_budget",
+      "role": "Auxiliary missing-step target from autonomous reassessment - falsify or prove the entropy-amplified Mills trace budget without replacing either main target"
+    }
+  ],
+  "approvedAt": "2026-11-08T07:00:45.346Z",
+  "performed_by": "unknown"
+}

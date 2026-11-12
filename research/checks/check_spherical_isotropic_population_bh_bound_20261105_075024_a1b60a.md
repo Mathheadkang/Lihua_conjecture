@@ -1,0 +1,378 @@
+---
+type: falsification_check
+title: 'Falsification check: spherical_isotropic_population_bh_bound'
+target_asset: spherical_isotropic_population_bh_bound
+outcome: no_counterexample_found
+statement_digest: 6909caa2801e56b1b457f82e3e23986c42d944b50096ec7cb39f26291eeb6bb7
+performed_by: unknown
+created_at: '2026-11-05T07:50:24.683Z'
+extension_version: 0.0.4
+---
+
+## Cases checked
+
+- Round 2, boundary_degenerate: cand_spherical_isotropic_population_bh_bound_r2_s1_near_double_contact failed — NOT fails: the near-double-contact law has $\operatorname{FDR}_{\rm pop}<0.943q$, below the proposed right side.
+- Round 2, boundary_degenerate: cand_spherical_isotropic_population_bh_bound_r2_s6_support_edge_contact failed — NOT is the first failed check: an exact first contact at the null support edge exists, but the full population FDR is at most $4q\pi_0$, strictly below the proposed bound.
+- Round 2, small_cases: cand_spherical_isotropic_population_bh_bound_r2_s7_d5_two_strong_means failed — NOT fails first: a direct first-contact bound gives $\operatorname{FDR}_{\rm pop}<7/3\,q\pi_0$, strictly below the claimed right side.
+- Round 2, small_cases: cand_spherical_isotropic_population_bh_bound_r2_s7_d7_two_strong_means failed — NOT fails first: a direct first-contact bound gives $\operatorname{FDR}_{\rm pop}<3\,q\pi_0$, strictly below the claimed right side.
+- Round 2, small_cases: cand_spherical_isotropic_population_bh_bound_r2_s7_d9_two_strong_means failed — NOT fails first: a direct first-contact bound gives $\operatorname{FDR}_{\rm pop}<5\,q\pi_0$, strictly below the claimed right side.
+- Round 3, boundary_degenerate: cand_spherical_isotropic_population_bh_bound_r3_s1_vanishing_pareto_tail failed — NOT fails first: all hypotheses hold, but the finite contacts created by the infinite-mean tail have zero null FDP below $b$, and the remaining radial tail gives $\operatorname{FDR}_{\mathrm{pop}}<3q/4<q$, below the proposed bound.
+- Round 3, small_cases: cand_spherical_isotropic_population_bh_bound_r3_s2_d4_subthreshold_uniform failed — NOT is the first failed check: the uniform subthreshold alternative law has FDR at most $6q\pi_0$, strictly below the proposed right side.
+- Round 3, small_cases: cand_spherical_isotropic_population_bh_bound_r3_s2_d5_subthreshold_uniform failed — NOT is the first failed check: the uniform subthreshold alternative law has FDR at most $7q\pi_0$, strictly below the proposed right side.
+- Round 3, small_cases: cand_spherical_isotropic_population_bh_bound_r3_s2_d6_subthreshold_uniform failed — NOT is the first failed check: the uniform subthreshold alternative law has FDR at most $8q\pi_0$, strictly below the proposed right side.
+- Round 3, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r3_s3_log_accumulation_zero failed — NOT is the first failed check: logarithmically accumulating positive means satisfy every hypothesis, but a uniform radial exclusion and the exact $\chi_4$ tail give $\operatorname{FDR}_{\rm pop}<4q\pi_0$.
+- Round 3, known_counterexamples: cand_spherical_isotropic_population_bh_bound_r3_s4_cantor_weak_means failed — NOT is the first failed check: the singular continuous weak-alternative law has FDR at most $8q\pi_0$, strictly below the claimed bound.
+- Round 3, boundary_degenerate: cand_spherical_isotropic_population_bh_bound_r3_s6_sparse_boundary_mass failed — NOT fails first: an exponentially sparse alternative with $\pi_0=1-e^{-10816}$ still has $\operatorname{FDR}_{\mathrm{pop}}<7.3q\pi_0$, while the proposed right side is greater than $9q\pi_0$.
+- Round 3, small_cases: cand_spherical_isotropic_population_bh_bound_r3_s7_d4_weak_continuum failed — NOT fails first: a no-contact radial exclusion gives $\operatorname{FDR}_{\rm pop}<3q$, while the claimed right side exceeds $3q$.
+- Round 3, small_cases: cand_spherical_isotropic_population_bh_bound_r3_s7_d5_single_weak_mean failed — NOT fails first: the no-contact radial exclusion gives $\operatorname{FDR}_{\rm pop}<3q$, while the claimed right side exceeds $3q$.
+- Round 3, small_cases: cand_spherical_isotropic_population_bh_bound_r3_s7_d6_two_weak_means failed — NOT fails first: the no-contact radial exclusion gives $\operatorname{FDR}_{\rm pop}<3q$, while the claimed right side exceeds $3q$.
+- Round 3, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r3_s8_infinite_moment_accumulation failed — NOT is the first failed check: despite unbounded support, infinite first moment, and alternative atoms accumulating at zero, the exact global envelope gives $\operatorname{FDR}_{\mathrm{pop}}<3q$ while the proposed right side exceeds $4q$.
+- Round 4, boundary_degenerate: cand_spherical_isotropic_population_bh_bound_r4_s1_vanishing_null_at_cutoff failed — NOT fails first: the alternative atom at the initial cutoff supplies a uniform admissible cutoff and yields $\operatorname{FDR}_{\mathrm{pop}}\leq4q\pi_0$, below the proposed bound for all $u\geq104$.
+- Round 4, small_cases: cand_spherical_isotropic_population_bh_bound_r4_s2_d5_subthreshold_atom failed — NOT is the first failed check: the null-only radial envelope bounds this object's FDR strictly below the proposed right side.
+- Round 4, small_cases: cand_spherical_isotropic_population_bh_bound_r4_s2_d6_subthreshold_atom failed — NOT is the first failed check: the null-only radial envelope bounds this object's FDR strictly below the proposed right side.
+- Round 4, small_cases: cand_spherical_isotropic_population_bh_bound_r4_s2_d7_subthreshold_atom failed — NOT is the first failed check: the null-only radial envelope bounds this object's FDR strictly below the proposed right side.
+- Round 4, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r4_s3_tiny_null_edge_atom failed — NOT fails first: the exponentially small null mass and cutoff-edge positive mean satisfy all hypotheses, but the uniform half-mass rejection bound gives $\operatorname{FDR}_{\rm pop}<\tfrac83q\pi_0$, below the proposed bound.
+- Round 4, known_counterexamples: cand_spherical_isotropic_population_bh_bound_r4_s4_sparse_null_strong_mean failed — NOT is the first failing check: a cutoff admissible at every radius gives $\operatorname{FDR}_{\mathrm{pop}}\leq(2048/1023)q\pi_0<3q\pi_0$, below the proposed bound.
+- Round 4, boundary_degenerate: cand_spherical_isotropic_population_bh_bound_r4_s6_pure_null_d5_variable_level failed — NOT fails first: the pure-null dimension-five boundary at $u=105$ has FDR below $3q$, while the proposed coefficient is greater than three.
+- Round 4, small_cases: cand_spherical_isotropic_population_bh_bound_r4_s7_d4_half_u_small_null failed — NOT fails first: a globally admissible cutoff bounds FDR by $8q\pi_0$, below the proposed coefficient in this previously unexcluded small-null, intermediate-mean example.
+- Round 4, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r4_s8_all_null_large_dimension failed — NOT is the first failed check: the all-null edge has one monotone radial onset of contact and FDR at most $q$, strictly below the proposed bound.
+- Round 5, small_cases: cand_spherical_isotropic_population_bh_bound_r5_s2_d8_subthreshold_atom failed — NOT fails first: the dimension-eight null-only radial envelope bounds the FDR strictly below the proposed right side.
+- Round 5, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r5_s3_weak_positive_sparse_null failed — NOT fails first: a uniform admissible cutoff and its logarithmic interval envelope give $\operatorname{FDR}_{\mathrm{pop}}<(87/10)q\pi_0$, below the proposed coefficient, despite sparse null mass and a unit positive mean.
+- Round 5, known_counterexamples: cand_spherical_isotropic_population_bh_bound_r5_s4_ultrarare_null_weak_mean failed — NOT fails first: symmetric unimodality gives $\operatorname{FDP}_{\rm pop}\leq\pi_0$, and this object's null mass is smaller than the additive allowance $e^{-2u^2}$.
+- Round 5, small_cases: cand_spherical_isotropic_population_bh_bound_r5_s7_d4_third_null_half_mean failed — NOT fails first: the half-cutoff alternative mass makes $x_9$ globally admissible for $r\geq u$, giving $\operatorname{FDR}_{\rm pop}\leq9q\pi_0$ strictly below the proposed bound.
+- Round 5, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r5_s8_sparse_null_seven_twentieths failed — NOT fails first: the alternative at $7u/20$ supplies a uniform admissible cutoff and proves $\operatorname{FDR}_{\rm pop}\leq9q\pi_0$, below the proposed bound.
+- Round 6, small_cases: cand_spherical_isotropic_population_bh_bound_r6_s2_d9_weak_atom failed — NOT fails first: the dimension-nine radial envelope gives $\operatorname{FDR}_{\mathrm{pop}}/(q\pi_0)<645689/90000<15/2$, below the proposed coefficient.
+- Round 6, small_cases: cand_spherical_isotropic_population_bh_bound_r6_s7_d4_microscopic_positive_mean failed — NOT fails first: microscopic positive means cannot create contact below the explicit radius $b$, whose exact $\chi_4$ tail is smaller than $q$.
+- Round 6, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r6_s8_ultraweak_exponential_unbounded failed — NOT fails first: the ultraweak unbounded exponential alternative obeys $\operatorname{FDR}_{\rm pop}<7q\pi_0$, below the proposed coefficient.
+- Round 7, small_cases: cand_spherical_isotropic_population_bh_bound_r7_s2_d4_inverse_u_atom failed — NOT fails first: the inverse-u mean forces positive null FDP into radial events whose exact tails give FDR below $4q\pi_0$, whereas the proposed coefficient exceeds seven.
+- Round 7, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r7_s3_weak_bulk_infinite_mean_tail failed — NOT fails first: the weak-bulk, infinite-mean mixture obeys the explicit radial exclusion $\operatorname{FDR}_{\rm pop}<5q\pi_0$, below the target right side.
+- Round 7, small_cases: cand_spherical_isotropic_population_bh_bound_r7_s7_d4_two_over_u_atom failed — NOT fails first: a cap estimate excludes every finite contact up to radius $b=\sqrt{u^2+6\log u}-2/u$, and the exact $\chi_4$ tail then gives $\operatorname{FDR}_{\rm pop}<5q\pi_0$, strictly below the proposed bound.
+- Round 7, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r7_s8_infinite_mean_lomax failed — NOT fails first: the infinite-mean Lomax mixture has $\operatorname{FDR}_{\rm pop}<6q\pi_0$, strictly below the proposed right side.
+- Round 8, small_cases: cand_spherical_isotropic_population_bh_bound_r8_s2_d4_strong_half_mass failed — NOT fails first: a universally admissible deterministic cutoff confines the first contact and gives $\operatorname{FDR}_{\rm pop}\leq4q\pi_0$, strictly below the target bound.
+- Round 8, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r8_s3_strong_pareto_infinite_mean failed — NOT fails first: the appreciable strong Pareto component forces a bounded first contact below radius $2u-u^{-1}$, and its exact radial-tail bound gives $\operatorname{FDR}_{\rm pop}<4q\pi_0$.
+- Round 8, known_counterexamples: cand_spherical_isotropic_population_bh_bound_r8_s4_dyadic_strong_infinite_mean failed — NOT fails first: although half the law lies on unbounded strong-mean atoms and the mean is infinite, the alternatives are saturated throughout the relevant low-radius contacts, giving FDR less than $3q\pi_0$.
+- Round 8, extremal: cand_spherical_isotropic_population_bh_bound_r8_s5_growing_dimension_dominant_mean failed — NOT fails: all alternatives are fully rejected up to a deterministic radial cutoff, giving the strict target bound $\operatorname{FDR}_{\rm pop}\leq2q\pi_0+e^{-2u^2}$.
+- Round 8, boundary_degenerate: cand_spherical_isotropic_population_bh_bound_r8_s6_exact_cancellation_plateau failed — NOT fails: the exact cancellation endpoint has $x_r\leq a$ and rejection mass at least $1/3$, forcing $\operatorname{FDR}_{\rm pop}\leq3q\pi_0$ below the proposed bound.
+- Round 8, small_cases: cand_spherical_isotropic_population_bh_bound_r8_s7_d4_strong_atom_two_u failed — NOT fails first: the strong atom forces every first contact into $[u,x_0]$, and Gaussian marginal averaging bounds the FDR by $4q\pi_0$, below the proposed bound.
+- Round 8, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r8_s8_strong_atom_twou failed — NOT fails: a strong-mean mass of one half keeps the contact denominator at least one quarter and yields $\operatorname{FDR}_{\rm pop}\leq4q\pi_0$, below the target bound.
+- Round 9, small_cases: cand_spherical_isotropic_population_bh_bound_r9_s2_d4_one_percent_near_threshold failed — NOT fails first: the one-percent mean atom just above $u$ admits a localized cap envelope and radial-tail estimate giving FDR less than $(169/49)q\pi_0$, whereas the target coefficient exceeds $7$.
+- Round 9, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r9_s3_barely_above_u_atom failed — NOT fails: a regional cutoff bound for all radii admitting null rejections gives $\operatorname{FDR}_{\mathrm{pop}}\leq5q\pi_0$, below the proposed bound, even with a positive-mean atom only $u^{-2}$ above the bounded-mean edge.
+- Round 9, extremal: cand_spherical_isotropic_population_bh_bound_r9_s5_vanishing_moderate_contamination failed — NOT fails first: a uniform spherical-cap likelihood bound makes positive-FDP radii rare enough that this vanishing moderate-signal contamination has FDR below $3q$, strictly below the target bound.
+- Round 9, small_cases: cand_spherical_isotropic_population_bh_bound_r9_s7_near_boundary_mean failed — NOT fails: an admissible cutoff valid on every radius capable of a null rejection gives $\operatorname{FDR}_{\rm pop}\leq5q\pi_0$, below the target coefficient.
+- Round 9, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r9_s8_moderate_geometric_spread failed — NOT fails: even this unbounded law concentrated just above the previous support boundary has a fixed admissible cutoff and total rejection mass greater than $1/5$ on every radius where null rejection is possible, giving FDR below $5q\pi_0$.
+- Round 10, small_cases: cand_spherical_isotropic_population_bh_bound_r10_s2_d5_straddling_two_atoms failed — NOT fails first: the exact dimension-five cubic caps furnish a uniform rejection-mass floor above $1/6$, which bounds FDR by $6q\pi_0$, below this target's coefficient exceeding seven.
+- Round 10, drop_hypothesis: cand_spherical_isotropic_population_bh_bound_r10_s3_intermediate_contamination failed — NOT fails first: this intermediate contamination family lies outside the previously displayed tiny-mass premise but a split at $6u/5$ gives FDR less than $3q$, below the target bound.
+- Round 10, known_counterexamples: cand_spherical_isotropic_population_bh_bound_r10_s4_near_null_remote_atom failed — NOT fails first: splitting the contact equation into near-null-bulk and rare-remote-atom contributions bounds this mixture's FDR below $3q$, below the proposed bound at $\pi_0=1/2$.
+- Round 10, extremal: cand_spherical_isotropic_population_bh_bound_r10_s5_near_null_dilution failed — NOT fails first: nearly null alternatives dilute the true-null FDP by $\pi_0/(1-\eta)$, and a shifted cap envelope bounds the positive-FDP event by $3q$, giving FDR below $4q\pi_0$.
+- Round 10, small_cases: cand_spherical_isotropic_population_bh_bound_r10_s7_d5_weak_strong_quarters failed — NOT fails first: the strong quarter-mass atom supplies a radius-independent admissible cutoff, giving FDR at most $8q\pi_0$, below the dimension-five target coefficient.
+- Round 1, boundary_degenerate: no plausible candidate.
+- Round 1, small_cases: no plausible candidate.
+- Round 1, drop_hypothesis: no plausible candidate.
+- Round 1, known_counterexamples: no plausible candidate.
+- Round 1, extremal: no plausible candidate.
+- Round 1, boundary_degenerate: no plausible candidate.
+- Round 1, small_cases: no plausible candidate.
+- Round 1, drop_hypothesis: no plausible candidate.
+- Round 2, drop_hypothesis: no plausible candidate.
+- Round 2, known_counterexamples: no plausible candidate.
+- Round 2, extremal: no plausible candidate.
+- Round 2, drop_hypothesis: no plausible candidate.
+- Round 3, extremal: no plausible candidate.
+- Round 4, extremal: no plausible candidate.
+- Round 5, boundary_degenerate: no plausible candidate.
+- Round 5, extremal: no plausible candidate.
+- Round 5, boundary_degenerate: no plausible candidate.
+- Round 6, boundary_degenerate: no plausible candidate.
+- Round 6, known_counterexamples: no plausible candidate.
+- Round 6, extremal: no plausible candidate.
+- Round 6, boundary_degenerate: no plausible candidate.
+- Round 7, boundary_degenerate: no plausible candidate.
+- Round 7, known_counterexamples: no plausible candidate.
+- Round 7, extremal: no plausible candidate.
+- Round 7, boundary_degenerate: no plausible candidate.
+- Round 9, boundary_degenerate: no plausible candidate.
+- Round 9, known_counterexamples: no plausible candidate.
+- Round 9, boundary_degenerate: no plausible candidate.
+- Round 10, boundary_degenerate: no plausible candidate.
+- Round 10, boundary_degenerate: no plausible candidate.
+- Obstruction: No family-wide obstruction was established in this round. The summary pack lists no candidates; returning no candidate neither excludes a family nor certifies the proposed bound.
+- Obstruction: Strong alternatives with a fixed radial cutoff cannot supply a counterexample in the following restricted families: fix $u=104$, $q=2Q(u)$, and $(d,\pi_0)\in\{(5,1/4),(7,1/2),(9,3/4)\}$, and let the alternative part of any Borel law $W$ be supported on $[4u,\infty)$. For $0<r\leq2u$ and $u\leq x\leq2u$, every alternative rejects, so $F_r(x)\geq1-\pi_0$. The Gaussian tail ratio $Q(2u)/Q(u)<1/4\leq1-\pi_0$ makes $2u$ admissible, bounds the first contact by $2u$, and gives $\operatorname{FDP}_{\rm pop}(r)\leq2\pi_0H_r(u)/(1-\pi_0)$. Using $\mathbb EH_R(u)=Q(u)$ and $\operatorname{FDP}_{\rm pop}\leq1$ on the remaining radii yields
+- Obstruction: $$
+- Obstruction: \operatorname{FDR}_{\rm pop}\leq\frac{q\pi_0}{1-\pi_0}+\mathbb P(R>2u)
+- Obstruction: \leq\frac{q\pi_0}{1-\pi_0}+2^{d/2}e^{-u^2}.
+- Obstruction: $$
+- Obstruction: The explicit tail comparisons in `cand_spherical_isotropic_population_bh_bound_r2_s7_d5_two_strong_means`, `cand_spherical_isotropic_population_bh_bound_r2_s7_d7_two_strong_means`, and `cand_spherical_isotropic_population_bh_bound_r2_s7_d9_two_strong_means` give respectively $\operatorname{FDR}_{\rm pop}<(7/3)q\pi_0$, $3q\pi_0$, and $5q\pi_0$, each below the proposed bound. The argument depends on the alternative support lower bound rather than on having exactly two alternative atoms; it excludes these support-restricted families at the three fixed parameter pairs. This possible proof step is saved as the draft approach `idea_2fe4ecca259b`.
+- Obstruction: **A null-only envelope excludes every Borel mean law at fixed $d=4,u=104$ when $\pi_0\geq1/2$.** In `cand_spherical_isotropic_population_bh_bound_r3_s6_sparse_boundary_mass`, put $S(r)=\sup_{x\geq u}H_r(x)/Q(x)$. The contact identity gives $\operatorname{FDP}_{\rm pop}(r)\leq\min\{1,q\pi_0S(r)\}$, with FDP zero for $r\leq u$. The spherical tail and lower Mills bound yield $S(r)\leq K(1+u^{-2})r^{-1/2}u^{-3/2}e^{r^2/2}$, where $K=8(3/(2e))^{3/2}/(3\sqrt\pi)$. Integrating against the exact $\chi_4$ density only up to $b=\sqrt{u^2+10\log u}$ gives an integral coefficient below $7.26$ multiplying $q\pi_0$; the remaining radial probability divided by $q$ is below $3/u^2$. Thus $\operatorname{FDR}_{\rm pop}<7.3q\pi_0$, whereas the proposed coefficient at these parameters exceeds $9$. The argument uses no property of the alternative law; its extension from the displayed sparse two-atom object to this fixed-parameter family is therefore justified, including continuous, singular, and unbounded laws. This does not extend the bound to other dimensions, other $u$, or smaller null proportions. The proof-step approach is saved as the draft idea [Integrate a null-only radial envelope before tracking contact branches](../ideas/idea_3afb7bc15f1e.md).
+- Obstruction: **A globally admissible cutoff excludes a restricted subthreshold-mean family in dimensions $4,5,6$.** Fix $u=104$, $q=2Q(u)$, and $W=\tfrac12\delta_0+\tfrac12\nu$, where $\nu$ is supported on $[u/2,u]$ and $\int\mu\,\nu(d\mu)\geq3u/4$. The three `r3_s2` candidates use the uniform law, but their argument uses only these support and mean conditions. With $(d,k)=(4,6),(5,7),(6,8)$ and $x_k=Q^{-1}(Q(u)/k)<u+1$, the spherical coordinate density bound gives $F_r(x_k)\geq\tfrac14-(c_d/2)(\tfrac14+u^{-1})>1/k$ for every $r\geq u$, where $(c_4,c_5,c_6)=(2/\pi,3/4,8/(3\pi))$. Hence the smallest finite contact obeys $x_r\leq x_k$ there; for $r<u$ the null FDP is zero. Using $\mathbb E H_R(u)=Q(u)$ gives $\operatorname{FDR}_{\rm pop}\leq kq\pi_0$. Each respective proposed coefficient strictly exceeds $k$. This is a family exclusion at the stated parameters, not a bound for arbitrary subthreshold alternatives or arbitrary dimensions.
+- Obstruction: **A bounded weak-mean support can exclude all contacts on an initial radial interval.** At $u=104$, every law supported in $[0,1/u]$ satisfies $F_r(x)\leq2H_r(x-1/u)$. The support-edge tail inequality and Mills bounds in the three `r3_s7` candidates therefore apply independently of the internal distribution of its means. For $(d,K)=(4,4),(5,4),(6,8)$, set $r_*^2=u^2+2(d-1)\log u-2\log K$. Their explicit envelopes give $F_r(x)Q(u)/Q(x)<1$ for every $x\geq u$ and $r\leq r_*$. The exact $\chi_d$ tails then give $\operatorname{FDR}_{\rm pop}\leq\mathbb P(R>r_*)<3q$. For $\pi_0\geq1/2$ the proposed right side exceeds $3q$ in all three dimensions. Thus this support-restricted family fails NOT, including atomic and continuous laws; it is not an exclusion of general weak/strong mixtures. In dimension four, the distinct envelope in `r3_s3_log_accumulation_zero` even gives $\operatorname{FDR}_{\rm pop}<2q$ for the same support restriction, explaining why logarithmic accumulation at zero does not itself create a violation.
+- Obstruction: **A sufficiently small unrestricted tail does not defeat the weak-mean exclusion at the recorded fixed parameters.** The `r3_s8_infinite_moment_accumulation` calculation applies at $d=5,u=104,\pi_0=1/2$ whenever $W([0,1/u])\geq1-u^{-8}$: the remaining mass contributes at most $u^{-8}$ to $F_r(x)$, irrespective of its locations or moments. Its envelope is below one on $u\leq x\leq r\leq r_0=\sqrt{u^2+8\log u-4}$; any contact below that radial boundary must exceed the null support and gives zero null FDP. The exact $\chi_5$ tail yields $\operatorname{FDR}_{\rm pop}<3q$, whereas the proposed right side exceeds $4q$. Similarly, the `r3_s1_vanishing_pareto_tail` envelope applies at $d=4,u=104,\pi_0=1/2$ to laws with $W([0,u^{-3}])\geq1-u^{-6}$ and gives $\operatorname{FDR}_{\rm pop}<3q/4$. Its displayed Pareto object additionally has finite contacts at every positive radius; that existence fact uses the Pareto tail, while the FDR exclusion does not. These bounds impose explicit small-tail mass restrictions and do not cover arbitrary unbounded mixtures.
+- Obstruction: **The entire all-null family has one radial onset of contact and FDR at most the nominal level.** For every integer $d\geq4$, every $u\geq104$, $q=2Q(u)$, and $W=\delta_0$, one has $F_r(x)=2H_r(x)$. For each $x>u$ there is a unique $b(x)>x$ with $H_{b(x)}(x)=Q(x)/q$. It is continuous, diverges as $x\downarrow u$ and as $x\to\infty$, and therefore attains a finite minimum $b_*=b(x_*)$. At $x=u$ there is no finite-radius contact; at $x>u$ admissibility is exactly $r\geq b(x)$. Thus a finite contact exists exactly for $R\geq b_*$, and the all-null FDP is its indicator. The Gaussian marginal identity and radial monotonicity give $Q(x_*)=\mathbb E H_R(x_*)\geq\mathbb P(R\geq b_*)Q(x_*)/q$, so $\operatorname{FDR}_{\rm pop}\leq q$, below the proposed right side. This analytic argument in `cand_spherical_isotropic_population_bh_bound_r4_s8_all_null_large_dimension` is independent of its displayed $d=105^4,u=105$; it excludes every all-null dimension, including $d$ depending on $q$. It also subsumes the pure-null candidate `r4_s6_pure_null_d5_variable_level`, whose separate $\chi_5$-tail calculation yields $\operatorname{FDR}_{\rm pop}<3q$ for all $u\geq105$. The global-onset proof step is saved as the draft approach `idea_5a1b54ccbfa6`; it gives no mixed-law conclusion.
+- Obstruction: **A null-only radial envelope excludes every Borel mean law at $u=104$, $d\in\{5,6,7\}$, and $\pi_0\geq1/2$.** The three `r4_s2` candidates display a subthreshold atom, but their NOT calculations use no property of the alternatives. Set $a=(d-1)/2$, $b^2=u^2+2(d-1)\log u$, and $B_a=a^{a-1}e^{-a}/\Gamma(a)$. The spherical support-edge inequality and lower Mills bound imply, for all $x\geq u$,
+- Obstruction: $$
+- Obstruction: \frac{H_r(x)}{Q(x)}\leq A_d(1+u^{-2})r^{-a}u^{1-a}e^{r^2/2},\qquad A_dC_d=B_a,
+- Obstruction: $$
+- Obstruction: where $C_dr^{d-1}e^{-r^2/2}$ is the $\chi_d$ density; the left side is zero for $x\geq r$. The contact identity, FDP at most one, and zero null FDP for $r\leq u$ give
+- Obstruction: $$
+- Obstruction: \frac{\operatorname{FDR}_{\rm pop}}{q\pi_0}\leq B_a(1+u^{-2})u^{1-a}\int_u^b r^a\,dr+\frac{\mathbb P(R>b)}{q\pi_0}.
+- Obstruction: $$
+- Obstruction: For $\pi_0=1/2$, exact rational estimates and the incomplete-gamma tail bound in the candidates give respective strict upper bounds $3259/500$, $1489/200$, and $3081/400$, all below $193/25$. The proposed coefficient exceeds $193/25$, using $M_d>13/50$ and $\log312>11/2$. Increasing $\pi_0$ leaves the integral term unchanged and only reduces the normalized radial tail, so the same bounds hold for every $\pi_0\geq1/2$. This excludes arbitrary atomic, continuous, singular, and unbounded alternative laws at these stated parameters, not arbitrary dimensions, levels, or smaller null proportions. It extends the null-envelope route already recorded as `idea_3afb7bc15f1e`.
+- Obstruction: **Enough alternative mass at or above a deterministic cutoff prevents sparse-null counterexamples in the specified families.** In dimension seven, for every $u\geq104$, $W=p\delta_0+(1-p)\nu$, $0<p\leq1/3$, and $\nu([u,\infty))=1$, let $Q(x_4)=Q(u)/4$. Then $u<x_4<u+1$ and, for $r\geq u$, the coordinate density bound $f_7\leq15/16$ gives $H_r(x_4-\mu)>3/8$ at every alternative mean. Hence $F_r(x_4)>1/4$, the actual first contact is at most $x_4$, and $\operatorname{FDR}_{\rm pop}\leq4qp$. The proposed coefficient exceeds six. This extends `r4_s1_vanishing_null_at_cutoff` from $p=e^{-u^2},\nu=\delta_u$ to the stated family by the same lower bound. If $0<p<1/4$ and instead $\nu([u+1,\infty))=1$, the cutoff $a=Q^{-1}((1-p)Q(u)/2)<u+1$ is admissible at every radius, since every alternative contributes at least one half. It yields the sharper $\operatorname{FDR}_{\rm pop}\leq2qp/(1-p)<(8/3)qp$, covering `r4_s3_tiny_null_edge_atom`. The same half-mass argument applies at $d=8,u=104,p=1/1024$ to every $\nu$ supported on $[2u,\infty)$ and gives $\operatorname{FDR}_{\rm pop}\leq(2048/1023)qp<3qp$, below the proposed coefficient there; `r4_s4_sparse_null_strong_mean` is its atomic instance. These support and mass restrictions are essential to the displayed admissible-cutoff arguments; they do not exclude arbitrary sparse-null mixtures.
+- Obstruction: **A dimension-four cap lower bound excludes a small-null family with alternatives at least half the initial cutoff.** For every $u\geq104$, $d=4$, $W=p\delta_0+(1-p)\nu$ with $0<p\leq1/4$ and $\nu([u/2,\infty))=1$, set $Q(x_8)=Q(u)/8$. One has $u<x_8<u+1$. The exact cap value $H_u(u/2)=1/3-\sqrt3/(4\pi)>3/16$ and density bound $2/\pi$ imply $H_u(u/2+1)>3/16-2/(\pi u)>1/6$. Therefore $F_r(x_8)>1/8$ for every $r\geq u$, since at least three quarters of the population has mean at least $u/2$. Thus $x_r\leq x_8$ there, while the null FDP is zero for $r<u$. Averaging $\operatorname{FDP}_{\rm pop}(r)\leq16pH_r(u)$ gives $\operatorname{FDR}_{\rm pop}\leq8qp$. The proposed coefficient is greater than eight because $M_4=1/\pi$ and $\log(3u)>5$. The calculation of `r4_s7_d4_half_u_small_null` depends only on these mass, support, dimension, and level restrictions, so its displayed $p=1/4,\nu=\delta_{u/2},u=104$ is one member of this excluded family.
+- Obstruction: **Conditional spherical unimodality excludes every law with sufficiently tiny null mass, in every allowed dimension.** For any $d\geq4$ and $r>0$, the density $f_r$ of the spherical coordinate $rv_1$ is even and nonincreasing in $|t|$. For $x,\mu\geq0$, therefore,
+- Obstruction: $$
+- Obstruction: \frac{d}{d\mu}\{H_r(x-\mu)+H_r(x+\mu)\}
+- Obstruction: =f_r(x-\mu)-f_r(x+\mu)\geq0.
+- Obstruction: $$
+- Obstruction: Integrating the resulting inequality against any Borel absolute-mean law gives $F_r(x)\geq2H_r(x)$. At a finite contact the exact mass ratio then yields $\operatorname{FDP}_{\rm pop}(r)=2\pi_0H_r(x_r)/F_r(x_r)\leq\pi_0$; the no-contact and zero-radius conventions satisfy the same bound. Thus $\operatorname{FDR}_{\rm pop}\leq\pi_0$ for every allowed law and dimension. Every law with $\pi_0\leq e^{-2u^2}$ consequently satisfies the proposed target by its additive remainder alone. The growing-dimension, weak-mean object `cand_spherical_isotropic_population_bh_bound_r5_s4_ultrarare_null_weak_mean` is one such instance, with $\pi_0=e^{-3u^2}$. This genuine conditional proof step is recorded as the draft approach `idea_69abdb6ec943`; its bound has no $q$ factor and supplies no general target multiplier for larger $\pi_0$.
+- Obstruction: **The null-only radial envelope excludes arbitrary alternative laws at $d=8,u=104,\pi_0\geq1/2$.** In `cand_spherical_isotropic_population_bh_bound_r5_s2_d8_subthreshold_atom`, put $a=7/2$, $b^2=u^2+14\log u$, and $B=a^{a-1}e^{-a}/\Gamma(a)$. The spherical support-edge bound and the lower Mills inequality give, for every $x\geq u$,
+- Obstruction: $$
+- Obstruction: \frac{H_r(x)}{Q(x)}\leq A(1+u^{-2})u^{1-a}r^{-a}e^{r^2/2},
+- Obstruction: \qquad AC=B,
+- Obstruction: $$
+- Obstruction: where $Cr^7e^{-r^2/2}$ is the $\chi_8$ density. Null FDP vanishes for $r\leq u$ and is at most one, so
+- Obstruction: $$
+- Obstruction: \frac{\operatorname{FDR}_{\rm pop}}{q\pi_0}
+- Obstruction: \leq B(1+u^{-2})u^{1-a}\int_u^b r^a\,dr
+- Obstruction: +\frac{\mathbb P(R>b)}{q\pi_0}.
+- Obstruction: $$
+- Obstruction: The candidate's rational certificates bound the integral by $36/5$ and, at $\pi_0=1/2$, the normalized exact $\chi_8$ tail by $1/16$. Their sum is $581/80$. Meanwhile $M_8>13/50$ and $\log312>11/2$ make the proposed coefficient greater than $193/25>581/80$. Increasing $\pi_0$ only decreases the normalized tail. No feature of the alternative atom was used, so the exclusion genuinely covers every Borel alternative distribution at these dimension, level, and null-mass restrictions, including singular or unbounded laws. This extends the existing null-envelope approach `idea_3afb7bc15f1e`, without extending it to arbitrary dimensions or levels.
+- Obstruction: **A uniformly admissible cutoff plus a logarithmic interval envelope excludes a sparse-null family with means at least one.** Fix $d=4,u=104$, $W=p\delta_0+(1-p)\nu$, $0<p\leq1/1024$, and $\nu([1,\infty))=1$. Let $Q(b)=Q(u)/2048$. The argument in `cand_spherical_isotropic_population_bh_bound_r5_s3_weak_positive_sparse_null` gives $b-u<1/13$ and $H_u(b-1)>49/99440$. Since $(1023/1024)(49/99440)>1/2048$, monotonicity in the mean and radial monotonicity at the positive threshold $b-1$ show that $b$ is admissible for every $r\geq u$. Thus the actual first cutoff lies in $[u,b]$ there. For any $x\in[u,b]$, monotonicity of $H_r$ gives
+- Obstruction: $$
+- Obstruction: \frac{H_r(x)}{Q(x)}\leq\frac{H_r(u)}{Q(u)}+
+- Obstruction: \int_u^b\frac{H_r(t)\varphi(t)}{Q(t)^2}\,dt.
+- Obstruction: $$
+- Obstruction: Taking the common envelope's expectation, using Tonelli and $\mathbb E H_R(t)=Q(t)$, yields
+- Obstruction: $$
+- Obstruction: \operatorname{FDR}_{\rm pop}\leq qp\{1+\log2048\}<\frac{87}{10}qp,
+- Obstruction: $$
+- Obstruction: below the proposed coefficient, which exceeds nine. This extends the displayed $p=1/1024,\nu=\delta_1$ object to precisely the stated support-restricted family. The general cutoff-interval step is recorded as the draft approach `idea_cf9af13d9b02`; its uniform admissibility premise remains essential.
+- Obstruction: **Dimension-four cap lower bounds exclude two additional lower-support families via the same deterministic cutoff.** For every $u\geq104$, set $q=2Q(u)$ and $Q(x_9)=Q(u)/9$, so $u<x_9<u+1$. For $W=p\delta_0+(1-p)\nu$, either of the following conditions makes $F_r(x_9)>1/9$ for all $r\geq u$: (i) $0<p\leq1/3$ and $\nu([u/2,\infty))=1$; (ii) $0<p\leq1/100$ and $\nu([7u/20,\infty))=1$. For (i), the exact cap value $H_u(u/2)>3/16$ and density bound $2/\pi$ give $H_u(u/2+1)>1/6$, leaving alternative mass at least $2/3$. For (ii), $(x_9-7u/20)/r<13/20+1/u<33/50$ and the rational trigonometric certificate in `cand_spherical_isotropic_population_bh_bound_r5_s8_sparse_null_seven_twentieths` give $H_1(33/50)>1239147/11000000$, whose product with $99/100$ exceeds $1/9$. Monotonicity in the mean extends both calculations from atoms to their stated supports. Hence the actual first contact is at most $x_9$, and $\mathbb E H_R(u)=Q(u)$ implies $\operatorname{FDR}_{\rm pop}\leq9qp$, strictly below the proposed bound because its dimension-four coefficient exceeds nine for every $u\geq104$. Condition (i) covers `cand_spherical_isotropic_population_bh_bound_r5_s7_d4_third_null_half_mean`; condition (ii) covers the seven-twentieths object. These are lower-support and mass restrictions, not arbitrary sparse-null mixtures.
+- Obstruction: **Every allowed mean law at dimension nine and the endpoint level fails NOT.** Fix $d=9,u=104,q=2Q(u)$, and allow any Borel $W$ on $[0,\infty)$. Symmetric unimodality gives $F_r(x)\geq2H_r(x)$, hence $\operatorname{FDP}_{\rm pop}\leq\pi_0$; null FDP vanishes for $r\leq u$ and whenever the contact has $x_r\geq r$. For $u\leq x<r$, the exact cap formula and lower Mills bound in `cand_spherical_isotropic_population_bh_bound_r6_s2_d9_weak_atom` give the simultaneous envelope
+- Obstruction: $$
+- Obstruction: \frac{H_r(x)}{Q(x)}\leq560\sqrt{2\pi}e^{-4}(1+u^{-2})r^{-7}e^{r^2/2}.
+- Obstruction: $$
+- Obstruction: Integrate it against the $\chi_9$ density $\sqrt{2/\pi}\,r^8e^{-r^2/2}/105$ on $(u,b]$, where $b=\sqrt{u^2+72}$, and use $\operatorname{FDP}_{\rm pop}\leq\pi_0$ above $b$. For $\pi_0>0$ this gives
+- Obstruction: $$
+- Obstruction: \frac{\operatorname{FDR}_{\rm pop}}{q\pi_0}
+- Obstruction: \leq384e^{-4}(1+u^{-2})+\frac{\mathbb P(R>b)}q
+- Obstruction: <\frac{64}{9}\frac{10001}{10000}+\frac1{16}
+- Obstruction: =\frac{645689}{90000}<\frac{15}{2}.
+- Obstruction: $$
+- Obstruction: The exact odd-dimensional radial tail, $104<b<105$, and $e^4>54$ certify the tail term $<1/16$. Meanwhile $M_9=945/(1372\sqrt7)>1/4$ and $\log312>11/2$ make the proposed multiplicative coefficient $>15/2$. No property of the alternative atom or its weight enters this exclusion: it covers arbitrary null proportions, singular or unbounded mean laws, and laws without moments, at precisely these fixed $d,u$. If $\pi_0=0$, FDR is zero directly. This is a fixed-parameter extension of the null-envelope route `idea_3afb7bc15f1e`, not a uniform theorem over $d,u$.
+- Obstruction: **A microscopic upper bound on every mean prevents contact until an explicitly rare radius.** Fix $d=4,u=104,q=2Q(u)$ and any Borel $W$ supported on $[0,m]$, $m=u^{-2}$. Set $b=\sqrt{u^2+6\log u}$. The dimension-four cap bound $H_r(t)\leq C((r-t)/r)^{3/2}$, $C=4\sqrt2/(3\pi)<2/3$, and Gaussian Mills inequalities give, for every $u\leq r\leq b$ and $u\leq x\leq r+m$,
+- Obstruction: $$
+- Obstruction: \frac{F_r(x)Q(u)}{Q(x)}
+- Obstruction: \leq2C\left(\frac{3}{2e}\right)^{3/2}
+- Obstruction: e^{bm+m^2/2}\frac{b+m+u^{-1}}u
+- Obstruction: <\frac45\frac{100}{99}\frac{53}{52}<1.
+- Obstruction: $$
+- Obstruction: For $x>r+m$ the total rejection mass is zero, so no finite contact exists on this radius interval. At $r\leq u$ null FDP is zero even if a contact exists. Thus symmetric unimodality and the exact $\chi_4$ tail imply
+- Obstruction: $$
+- Obstruction: \operatorname{FDR}_{\rm pop}\leq\pi_0\mathbb P(R>b),\qquad
+- Obstruction: \frac{\mathbb P(R>b)}q
+- Obstruction: <\frac32\left(1+\frac1{10000}\right)
+- Obstruction: \left(\frac12+\frac{16}{10000}\right)<1.
+- Obstruction: $$
+- Obstruction: Therefore FDR is $<q\pi_0$ when $\pi_0>0$, and is zero when $\pi_0=0$, strictly below the target right side. This excludes the whole stated support-restricted family, including `cand_spherical_isotropic_population_bh_bound_r6_s7_d4_microscopic_positive_mean`, without relying on its two atoms or its null weight.
+- Obstruction: **A sufficiently small mass beyond a microscopic mean also forces positive null FDP into a rare radial event.** Fix $d=4,u=104,q=2Q(u)$, set $a=e^{-2u^2}$, and assume the explicit concentration condition $W((a,\infty))\leq Q(2u)/q$. The argument of `cand_spherical_isotropic_population_bh_bound_r6_s8_ultraweak_exponential_unbounded` extends to every Borel $W$ with this condition, since splitting means at $a$ gives $F_r(x)\leq2H_r(x-a)+W((a,\infty))$. Its cap and hazard bounds are
+- Obstruction: $$
+- Obstruction: \frac{H_r(t)}{Q(t)}<\frac52\frac{e^{r^2/2}}{r^2}\quad(2\leq t\leq r),
+- Obstruction: \qquad \frac{Q(x-a)}{Q(x)}<2\quad(u\leq x\leq2u).
+- Obstruction: $$
+- Obstruction: If a prescribed contact has positive null FDP and $r\leq2u$, then $u\leq x_r<r$ and the contact identity forces $e^{r^2/2}/r^2>1/(10q)$. This function is increasing above $u$, so let $s>u$ solve $e^{s^2/2}/s^2=1/(10q)$. Positive FDP at $r\leq2u$ requires $r>s$. Exact $\chi_4$ tails give $\mathbb P(R\geq s)=10q(1/s^2+1/2)<6q$ and $\mathbb P(R>2u)<q$. Together with $\operatorname{FDP}_{\rm pop}\leq\pi_0$, they yield $\operatorname{FDR}_{\rm pop}<7q\pi_0$ for $\pi_0>0$; it is zero for $\pi_0=0$. The target coefficient is $>7$ because $M_4=1/\pi$, $\log312>5$, and $\pi<4$. In particular, the exponential law with scale $e^{-4u^2}$ has tail $e^{-e^{2u^2}}<Q(2u)/q$ above $a$, so every mixture $p\delta_0+(1-p)\nu$ with that alternative obeys the exclusion, including the recorded $p=1/2$ object. Unbounded support is permitted only subject to the stated tail-mass premise. The weak-mean radial-exclusion step is recorded as draft approach `idea_44ab7b27c6cc`.
+- Obstruction: **Means supported on $[0,u]$ give a monotone first contact and conditional radial transport, hence $\operatorname{FDR}_{\rm pop}\leq q\pi_0$.** This family exclusion holds for every target dimension $d\geq4$, every $u\geq104$, and every Borel $W$ with $W([0,u])=1$. It is reconstructed here from the definitions, rather than adopted from the earlier report. For $x\geq u$ and $\mu\leq u$, both $x-\mu$ and $x+\mu$ are nonnegative. Since $H_r(t)=H_1(t/r)$ is nondecreasing in $r$ for $t\geq0$, $F_r(x)$ is nondecreasing in $r$. The admissible sets are therefore nested, so their smallest contacts $x(r)=x_r\in[u,\infty]$ are nonincreasing and Borel measurable, with $\infty$ denoting no finite contact.
+- Obstruction: The transport step also has a global order argument. Write $h_d$ for the $\chi_d$ density and, for finite $x\geq u$, put
+- Obstruction: $$
+- Obstruction: A(r,x)=\mathbb P(R\leq r\mid Z_1\geq x),\qquad
+- Obstruction: f_x(r)=\partial_r A(r,x)=h_d(r)\frac{H_r(x)}{Q(x)}.
+- Obstruction: $$
+- Obstruction: If $V$ is uniform on $(0,1)$ and $S\sim\chi^2_{d-1}$ is independent, then
+- Obstruction: $$
+- Obstruction: G_x=Q^{-1}(VQ(x)),\qquad R_x=\sqrt{G_x^2+S}
+- Obstruction: $$
+- Obstruction: have respectively the conditional normal and conditional radial laws. Both are nondecreasing in $x>0$ under this coupling, so $A(r,x)$ is nonincreasing in $x$. Set $A(r,\infty)=f_\infty(r)=0$. For any successive endpoints $s<t$ of a partition of $[a,b]\subset(0,\infty)$,
+- Obstruction: $$
+- Obstruction: A(t,x(t))-A(s,x(s))
+- Obstruction: \geq A(t,x(s))-A(s,x(s))
+- Obstruction: =\int_s^t f_{x(s)}(z)\,dz.
+- Obstruction: $$
+- Obstruction: Summing telescopes to at most one. On refining left-endpoint partitions, the selectors converge to $x(z)$ almost everywhere because an extended monotone function has at most countably many discontinuities after compactification. The density is continuous in finite $x$ and vanishes for $x\geq z$. On $z\in[a,b]$ it is bounded by $h_d(z)/Q(b)$: when $x(s)>z$ it is zero, and otherwise $Q(x(s))\geq Q(b)$. Dominated convergence and exhaustion of $(0,\infty)$ give
+- Obstruction: $$
+- Obstruction: \int_0^\infty f_{x(r)}(r)\,dr\leq1,
+- Obstruction: \qquad
+- Obstruction: \operatorname{FDR}_{\rm pop}
+- Obstruction: =q\pi_0\int_0^\infty f_{x(r)}(r)\,dr\leq q\pi_0.
+- Obstruction: $$
+- Obstruction: Thus jumps, contact births and infinite cutoffs are handled for this monotone family without an almost-everywhere contact derivative. This argument is recorded as the draft approach `idea_0fee0d078331`; it gives no unrestricted-target verification verdict. It includes the support families behind `cand_spherical_isotropic_population_bh_bound_r7_s2_d4_inverse_u_atom` and `cand_spherical_isotropic_population_bh_bound_r7_s7_d4_two_over_u_atom`. Their separate $d=4,u=104$ cap-and-tail certificates were also reconstructed: support in $[0,u^{-1}]$ gives $\operatorname{FDR}_{\rm pop}<(3+4u^{-2})q\pi_0<4q\pi_0$, and support in $[0,2/u]$ gives $\operatorname{FDR}_{\rm pop}<5q\pi_0$, for $\pi_0>0$. The latter excludes finite contacts on $u<r\leq\sqrt{u^2+6\log u}-2/u$ and uses the exact $\chi_4$ tail. These local certificates do not depend on the two-atom choices or their null weights.
+- Obstruction: **A sufficiently small mass above $u^{-1}$ excludes a weak-bulk family even with infinite first moment.** Fix $d=4,u=104,q=2Q(u)$ and assume
+- Obstruction: $$
+- Obstruction: \varepsilon=W((u^{-1},\infty))\leq\frac{Q(2u)}{10q}.
+- Obstruction: $$
+- Obstruction: Splitting means at $m=u^{-1}$ gives $F_r(x)\leq2H_r(x-m)+\varepsilon$. The dimension-four cap estimate and Mills inequalities give, for $t>100$ and $u\leq x\leq2u$,
+- Obstruction: $$
+- Obstruction: \frac{H_r(t)}{Q(t)}<\frac34\frac{e^{r^2/2}}{r^2},\qquad
+- Obstruction: \frac{Q(x-m)}{Q(x)}<8.
+- Obstruction: $$
+- Obstruction: A finite contact with positive null FDP necessarily has $u\leq x_r<r$. If $r\leq2u$, its equality $F_r(x_r)=2Q(x_r)/q$ consequently forces
+- Obstruction: $$
+- Obstruction: h(r):=\frac{e^{r^2/2}}{r^2}\geq\frac{19}{120q}.
+- Obstruction: $$
+- Obstruction: Let $s>u$ solve $h(s)=19/(120q)$; existence and uniqueness follow from strict increase above $u$ and the upper Mills bound at $u$. Thus positive FDP below $2u$ requires $r\geq s$. Symmetric unimodality gives $F_r(x)\geq2H_r(x)$ and hence $\operatorname{FDP}_{\rm pop}\leq\pi_0$ for every $W$. The exact $\chi_4$ tail and the displayed radial condition now imply
+- Obstruction: $$
+- Obstruction: \mathbb P(R\geq s)=\frac{120q}{19}(s^{-2}+1/2)<\frac{10q}{3},\qquad
+- Obstruction: \mathbb P(R>2u)<q,
+- Obstruction: $$
+- Obstruction: and therefore $\operatorname{FDR}_{\rm pop}<(13/3)q\pi_0<5q\pi_0$ when $\pi_0>0$. The sparse Pareto mixture in `cand_spherical_isotropic_population_bh_bound_r7_s3_weak_bulk_infinite_mean_tail` has exactly this tail mass and infinite first moment. The family exclusion depends on the tail-mass premise, not on the moment or the Pareto density.
+- Obstruction: **A tail mass controlled at a microscopic cutoff gives a separate Lomax-containing exclusion.** Fix $d=4,u=104,q=2Q(u)$, put $\delta=u^{-2}$, and let $s\in(u,2u)$ be the unique solution
+- Obstruction: $$
+- Obstruction: h(s)=\frac1{10q}.
+- Obstruction: $$
+- Obstruction: Suppose $\varepsilon=W((\delta,\infty))<Q(s)/q$. Again $F_r(x)\leq2H_r(x-\delta)+\varepsilon$. The independently reconstructed cap and Gaussian-hazard bounds are
+- Obstruction: $$
+- Obstruction: \frac{H_r(t)}{Q(t)}<\frac52h(r)\quad(2\leq t\leq r),\qquad
+- Obstruction: \frac{Q(x-\delta)}{Q(x)}<2\quad(u\leq x\leq s).
+- Obstruction: $$
+- Obstruction: At a positive-null-FDP contact with $u<r\leq s$, these imply
+- Obstruction: $$
+- Obstruction: \frac{F_r(x_r)}{Q(x_r)}
+- Obstruction: <10h(r)+\frac{\varepsilon}{Q(s)}<\frac2q,
+- Obstruction: $$
+- Obstruction: contradicting contact equality. At $r\leq u$ the null numerator is zero. Consequently
+- Obstruction: $$
+- Obstruction: \operatorname{FDR}_{\rm pop}\leq\pi_0\mathbb P(R>s)
+- Obstruction: =10q\pi_0(s^{-2}+1/2)<6q\pi_0
+- Obstruction: $$
+- Obstruction: for $\pi_0>0$. For `cand_spherical_isotropic_population_bh_bound_r7_s8_infinite_mean_lomax`, $a=e^{-u^2}$ and $\varepsilon=a/[2(a+\delta)]<u^2e^{-u^2}$. The lower Mills inequality gives
+- Obstruction: $$
+- Obstruction: \frac{q\varepsilon}{Q(s)}<3u^5e^{-u^2}<1,
+- Obstruction: $$
+- Obstruction: so its infinite-mean law satisfies the premise. This family can have unbounded support and does not require any finite moment. It excludes only laws obeying the displayed mass constraint. In both heavy-tail bullets, $\pi_0=0$ gives FDR zero. For $d=4,u=104$, $M_4=1/\pi$, $\pi<4$ and $\log312>5$ make the proposed coefficient exceed seven, so all the stated strict bounds lie below the target right side.
+- Obstruction: **A deterministic admissible cutoff bounds the entire first-contact family.** If a finite \(a\geq u\) satisfies \(F_r(a)\geq2Q(a)/q\) at every \(r>0\), the actual smallest contact exists and obeys \(u\leq x_r\leq a\), regardless of earlier contacts, switches, or equality plateaus. Monotonicity in the cutoff gives
+- Obstruction: $$
+- Obstruction: \operatorname{FDP}_{\rm pop}(r)
+- Obstruction: \leq q\pi_0\frac{H_r(u)}{Q(a)},\qquad
+- Obstruction: \operatorname{FDR}_{\rm pop}
+- Obstruction: \leq q\pi_0\frac{Q(u)}{Q(a)}.
+- Obstruction: $$
+- Obstruction: Here \(\mathbb E H_R(u)=Q(u)\), since an independent uniform directional projection of \(Z\sim N(0,I_d)\) is standard normal. A sufficient family-level premise is
+- Obstruction: $$
+- Obstruction: m=W([a,\infty))>0,\qquad \frac{2Q(a)}q\leq\frac m2.
+- Obstruction: $$
+- Obstruction: Symmetry gives \(H_r(a-\mu)\geq1/2\) for every \(\mu\geq a\), hence \(F_r(a)\geq m/2\) and also \(F_r(x_r)\geq m/2\). The latter lower bound yields \(\operatorname{FDR}_{\rm pop}\leq2q\pi_0/m\). This uses no bounded-support or moment assumption. For \(d=4,u=104,W=\frac12\delta_0+\frac12\delta_{2u}\), take \(Q(a)=q/8=Q(u)/4\). The Gaussian-tail translation inequality
+- Obstruction: $$
+- Obstruction: Q(u+t)\leq e^{-ut-t^2/2}Q(u)\quad(t>0)
+- Obstruction: $$
+- Obstruction: implies \(u<a<2u\), so \(m=1/2\) and the bound is \(4q\pi_0\). This is the same object in slots 2, 7, and 8, rather than three distinct exclusions. More generally, the same cutoff argument bounds every target population with at least one half of its mass at means at least \(2u\) by \(4q\pi_0\); comparison with the target coefficient must still use the actual dimension and level.
+- Obstruction: **Saturated strong mass below a radial cutoff excludes the tested heavy tails and dominant-mean scaling.** If \(a\geq u\), \(L>0\), \(m=W([a+L,\infty))>0\), and \(2Q(a)/q\leq m\), then for \(0<r\leq L\) the entire mass \(m\) rejects at \(a\). Therefore \(a\) is admissible, \(x_r\leq a\), and that same mass rejects at \(x_r\). The contact denominator is at least \(m\), so
+- Obstruction: $$
+- Obstruction: \operatorname{FDP}_{\rm pop}(r)\leq
+- Obstruction: \frac{2\pi_0}{m}H_r(u)\quad(0<r\leq L),\qquad
+- Obstruction: \operatorname{FDR}_{\rm pop}\leq
+- Obstruction: \frac{q\pi_0}{m}+\mathbb P(R>L).
+- Obstruction: $$
+- Obstruction: These are family-level support and radial-tail conditions, not consequences of infinite first moment alone. They give all three recorded saturation exclusions:
+- Obstruction: For the slot-3 Pareto law, \(d=4,u=104,\pi_0=m=1/2\), all positive means are at least \(3u\). Let \(Q(a)=q/4\) and \(L=2u-u^{-1}\). Tail translation gives \(u<a<u+u^{-1}\), so \(a+L<3u\). For \(R\sim\chi_4\),
+- Obstruction: $$
+- Obstruction: \mathbb P(R>L)=(1+L^2/2)e^{-L^2/2}
+- Obstruction: <2e^2u^2e^{-2u^2}<q,
+- Obstruction: $$
+- Obstruction: where the last comparison uses \(q>e^{-u^2/2}/(2u)\) at \(u=104\). Thus \(\operatorname{FDR}_{\rm pop}<2q=4q\pi_0\). The normalized density proportional to \(\mu^{-3/2}\) on \([3u,\infty)\) indeed has infinite first moment, but its entire nonnull mass satisfies the displayed saturation premise.
+- Obstruction: For the slot-4 dyadic law, again \(d=4,u=104,\pi_0=m=1/2\), all positive means are at least \(4u\). Take \(a=u+u^{-1}\) and \(L=2u\). Then \(a+L<4u\) and \(2Q(a)/q<e^{-1}<1/2\). The exact tail and lower Mills bound give
+- Obstruction: $$
+- Obstruction: \frac{\mathbb P(R>2u)}{Q(u)}
+- Obstruction: <18u^3e^{-3u^2/2}<\frac{32}{u^3}<1.
+- Obstruction: $$
+- Obstruction: The second strict inequality follows from \(e^{3u^2/2}>(3u^2/2)^3/6=9u^6/16\). Hence the FDR is less than \(q+Q(u)=3q\pi_0\), despite unbounded support and infinite first moment.
+- Obstruction: For the slot-5 family, \(u=n\geq104\) is an integer, \(d=n^4\), and \(W=\frac12\delta_0+\frac12\delta_d\). Set \(a=2u\), \(L=d-2u\), and \(m=1/2\). Then \(a+L=d\) and \(2Q(2u)/q\leq e^{-3u^2/2}<1/2\). Using \(L\geq d/2\) and \(\mathbb E e^{R^2/4}=2^{d/2}\),
+- Obstruction: $$
+- Obstruction: \mathbb P(R>L)
+- Obstruction: \leq\exp\{(d/2)\log2-L^2/4\}
+- Obstruction: \leq e^{-d^2/32}
+- Obstruction: =e^{-u^8/32}\leq e^{-2u^2}.
+- Obstruction: $$
+- Obstruction: Thus \(\operatorname{FDR}_{\rm pop}\leq2q\pi_0+e^{-2u^2}\), strictly below the target right side because \(M_d>0\). This excludes that simultaneous growing-dimension and growing-mean family without a general theorem about moving contacts.
+- Obstruction: **Exact cancellation of cap terms can create an admissible plateau without producing a counterexample.** For the slot-6 family \(W=\frac13\delta_0+\frac23\delta_{2a}\), with \(Q(a)=q/3\), symmetry gives the exact identity
+- Obstruction: $$
+- Obstruction: F_r(a)=\frac23H_r(a)+\frac23\{H_r(-a)+H_r(3a)\}
+- Obstruction: =\frac23+\frac23H_r(3a)\geq\frac23=\frac{2Q(a)}q.
+- Obstruction: $$
+- Obstruction: Thus \(x_r\leq a\), even though the equality contact \(a\) for \(r\leq3a\) need not be the first contact. Since \(x_r-2a<0\), \(F_r(x_r)\geq1/3\) and \(\operatorname{FDR}_{\rm pop}\leq3q\pi_0\), as recorded. In fact the first obstruction's common-cutoff bound also gives the stronger \((3/2)q\pi_0\) here; the recorded weaker bound already suffices. At all the fixed-\(d=4,u=104\) objects above, \(M_4=1/\pi\), \(\pi<4\), and \(\log312>5\) give the target coefficient \(2+4M_4(1+u^{-2})\log(3u)>7\). Consequently each displayed bound of \(3q\pi_0\) or \(4q\pi_0\) is strictly below that target, before adding \(e^{-2u^2}\).
+- Obstruction: The deterministic-cutoff and localized-saturation steps were also saved through native record_idea as draft approach idea_37962b3f4b08, related to the target. This is a restricted-family proof step, not a verification verdict for the target.
+- Obstruction: **A uniform rejection-mass floor on radii above the null boundary excludes a family without following moving contacts.** Let $a\geq u$ and $c>0$ satisfy $F_r(a)\geq c\geq Q(a)/Q(u)$ for every $r>u$. Then $a$ is admissible, the stipulated first contact obeys $u\leq x_r\leq a$, and monotonicity gives $F_r(x_r)\geq c$ and $H_r(x_r)\leq H_r(u)$. For $r\leq u$ every permitted cutoff has zero null rejection mass. Consequently, using $\mathbb E H_R(u)=Q(u)$,
+- Obstruction: $$
+- Obstruction: \operatorname{FDR}_{\rm pop}\leq \frac{q\pi_0}{c}.
+- Obstruction: $$
+- Obstruction: In dimension four, $h_r(t)=2\sqrt{1-t^2/r^2}/(\pi r)\leq1/r$ on $(-r,r)$. Thus for **any** $u\geq104$ and any mean law with $W([u,\infty))\geq1/2$, the choice $a=u+2/u$ gives, for every $r>u$,
+- Obstruction: $$
+- Obstruction: F_r(a)\geq\frac12\left(\frac12-\frac2{u^2}\right)
+- Obstruction: =c:=\frac14-\frac1{u^2}>\frac15,
+- Obstruction: \qquad \frac{Q(a)}{Q(u)}\leq e^{-2-2/u^2}<\frac15.
+- Obstruction: $$
+- Obstruction: The lower cap bound holds also when $a-\mu<0$, since then $H_r(a-\mu)\geq1/2$. Additional mean mass only helps. Therefore this family has $\operatorname{FDR}_{\rm pop}<5q\pi_0$ when $\pi_0>0$, and zero FDR when $\pi_0=0$. It includes the three distinct round-9 objects at $u=104$: slot 3's $W=\frac12\delta_0+\frac12\delta_{u+u^{-2}}$, slot 7's $W=\frac12\delta_0+\frac12\delta_{u+u^{-1}}$, and slot 8's unbounded law $W=\frac12\delta_0+\sum_{n\geq1}2^{-(n+1)}\delta_{u+n/u}$. Neither bounded support nor a finite mean was needed for this sufficient mass-floor premise. Here and below $M_4=1/\pi$, and $\pi<4$, $\log(3u)>5$ imply that the target coefficient exceeds $7$, so these bounds lie below its right side.
+- Obstruction: **A localized upper rejection envelope improves the mass-floor bound when contamination is small but fixed.** More generally, suppose a common admissible cutoff ensures $F_r(x_r)\geq L>0$ for every $r>u$, and $F_r(x_r)\leq U\leq1$ on $u<r\leq c_0u$, where $c_0>1$. Define $b$ by $Q(b)/Q(u)=U$. The contact identity implies $x_r\geq b$ on this interval, so
+- Obstruction: $$
+- Obstruction: \operatorname{FDR}_{\rm pop}
+- Obstruction: \leq q\pi_0\frac UL+\mathbb P(R>c_0u).
+- Obstruction: $$
+- Obstruction: These are explicit premises, not properties of arbitrary mixtures. Slot 2 supplies them for $d=4$, $u=104$, $\mu=u+u^{-1}$, and $W=(99/100)\delta_0+(1/100)\delta_\mu$. With $a=u+6/u$, for all $r>u$ one has
+- Obstruction: $$
+- Obstruction: H_r(a-\mu)\geq\frac12-\frac{10}{\pi u^2}>\frac{49}{100},
+- Obstruction: \qquad F_r(a)>L:=\frac{49}{10000},
+- Obstruction: \qquad \frac{Q(a)}{Q(u)}\leq e^{-6}<\frac1{400}<L.
+- Obstruction: $$
+- Obstruction: For $c_0=101/100$ and $u<r\leq c_0u$, the dimension-four cap bound gives
+- Obstruction: $$
+- Obstruction: 2H_r(u)\leq\frac{4\sqrt{201}}{\pi\,10201}<\frac1{500},
+- Obstruction: \qquad F_r(x_r)\leq\frac1{100}+\frac{99}{100}\,2H_r(u)<U:=\frac3{250}.
+- Obstruction: $$
+- Obstruction: The exact $\chi_4$ tail and the lower Mills bound give
+- Obstruction: $$
+- Obstruction: \frac{\mathbb P(R>c_0u)}q
+- Obstruction: <3u^3 e^{-201u^2/20000}
+- Obstruction: <4\cdot10^6e^{-100}<0.00288<\pi_0.
+- Obstruction: $$
+- Obstruction: The penultimate comparison follows from $e^{100}>100^6/6!$. Thus this object's FDR is less than $(120/49+1)q\pi_0=(169/49)q\pi_0$, below the target coefficient. This is an exclusion of the displayed object and of any family meeting the stated envelopes and tail premise, not of all fixed positive contamination masses.
+- Obstruction: **Sufficiently rare contamination forces every positive-FDP contact into a rare radial event, independently of the alternative means.** In dimension four with $u\geq104$, let $\varepsilon=1-\pi_0\leq Q(2u)/q$. For any alternative law, $F_r(x)\leq2H_r(x)+\varepsilon$. A positive-FDP finite contact with $r\leq2u$ has $u\leq x_r<r\leq2u$, and hence
+- Obstruction: $$
+- Obstruction: \frac{H_r(x_r)}{Q(x_r)}\geq\frac1{2q}.
+- Obstruction: $$
+- Obstruction: For $u\leq x<r$, put $h=r-x$. The cap density, the lower Mills bound, and $e^{-rh+h^2/2}\leq e^{-rh/2}$ imply
+- Obstruction: $$
+- Obstruction: H_r(x)\leq\frac{4\sqrt2}{3\pi}(h/r)^{3/2},
+- Obstruction: \qquad
+- Obstruction: \frac{H_r(x)}{Q(x)}
+- Obstruction: \leq C(1+u^{-2})\frac{e^{r^2/2}}{r^2},
+- Obstruction: \qquad C=\frac{8\sqrt3}{\sqrt\pi}e^{-3/2}<2.
+- Obstruction: $$
+- Obstruction: The second bound follows by maximizing $h^{3/2}e^{-rh/2}$, whose maximum is $(3/r)^{3/2}e^{-3/2}$, and using $x+x^{-1}\leq r(1+u^{-2})$. Therefore every such contact obeys $g(r):=r^2e^{-r^2/2}<4(1+u^{-2})q$. The function $g$ decreases on $[u,\infty)$, and the upper Mills bound gives $g(u)/q\geq(\sqrt{2\pi}/2)u^3>4(1+u^{-2})$. There is a unique $b>u$ with $g(b)=4(1+u^{-2})q$. The exact radial tail then yields
+- Obstruction: $$
+- Obstruction: \mathbb P(R\geq b)
+- Obstruction: =2(1+u^{-2})(1+2/b^2)q
+- Obstruction: \leq2(1+u^{-2})(1+2u^{-2})q<\frac52q.
+- Obstruction: $$
+- Obstruction: Separately,
+- Obstruction: $$
+- Obstruction: \frac{\mathbb P(R>2u)}{Q(u)}
+- Obstruction: <18u^3e^{-3u^2/2}<\frac{32}{u^3}<1.
+- Obstruction: $$
+- Obstruction: The latter estimate uses $\mathbb P(R>2u)=(1+2u^2)e^{-2u^2}$, Mills' lower bound, and $e^{3u^2/2}>9u^6/16$. Since FDP is at most one, $\operatorname{FDR}_{\rm pop}<3q$. The mass premise implies $\pi_0>1/2$, so this is below $7q\pi_0$ and hence below the target. Slot 5's family $\varepsilon=e^{-u^4}$ and alternative mean $u+u^{-1}$ meets the premise for every real $u\geq104$, since
+- Obstruction: $$
+- Obstruction: \frac{Q(2u)}q\geq\frac15e^{-3u^2/2}>e^{-u^4}.
+- Obstruction: $$
+- Obstruction: This restricted positive-FDP event step was saved through native `record_idea` as draft approach `idea_03335ac9f185`; it gives no target verification verdict.
+- Obstruction: **A dimension-five cap floor excludes the specified straddling-mean family.** For every $u\ge104$, set $d=5$, $q=2Q(u)$ and $W=(3/5)\delta_0+(1/5)\delta_{u-u^{-1}}+(1/5)\delta_{u+u^{-1}}$. The recorded slot-2 object has $u=104$. In this dimension $H_r(t)=1/2-3t/(4r)+t^3/(4r^3)$ for $0\le t\le r$. At $x_0=u+2/u$ and every $r\ge u$, the two alternative atoms give $F_r(x_0)\ge1/5-3/(5ur)+7/(5u^3r^3)\ge1/5-3/(5u^2)>1/6$. Also $2Q(x_0)/q=Q(u+2/u)/Q(u)\le e^{-2-2/u^2}<1/6$. Thus $x_0$ is admissible, $x_r\le x_0$, and $F_r(x_r)>1/6$ wherever a null rejection is possible. Consequently $\operatorname{FDP}(r)\le12\pi_0H_r(u)$; for $r<u$ both sides vanish. The exact radial-directional identity $\mathbb E H_R(u)=Q(u)$ gives $\operatorname{FDR}\le6q\pi_0$. Here $M_5=1/(2\sqrt3)$, and the target coefficient $2+(2/\sqrt3)(1+u^{-2})\log(3u)>7$ for $u\ge104$. This excludes this fixed-weight, fixed-offset family, not all pairs of means straddling $u$.
+- Obstruction: **A separated strong-mean mass supplies a fixed admissible cutoff, subject to a quantitative gap.** More generally, if $W([m,\infty))\ge p>0$, $m>u$, and $Q(m)/Q(u)<p/2$, choose $x_0\in(u,m)$ with $Q(x_0)=(p/2)Q(u)$. Symmetry gives $H_r(x_0-\mu)\ge1/2$ for $\mu\ge m$, so $F_r(x_0)\ge p/2=2Q(x_0)/q$ for every $r>0$. Then $u\le x_r\le x_0$ and $\operatorname{FDR}\le(2/p)q\pi_0$, using either the contact identity or the mass floor and $\mathbb E H_R(u)=Q(u)$. The slot-7 dimension-five family $W=(1/2)\delta_0+(1/4)\delta_{u/2}+(1/4)\delta_{3u/2}$ has $p=1/4$, $m=3u/2$, and $Q(3u/2)/Q(u)\le(2/3)(1+u^{-2})e^{-5u^2/8}<1/8$ for $u\ge104$. Hence its FDR is at most $8q\pi_0$. Its target coefficient exceeds eight: $\log(3u)\ge\log312>\log256=8\log2>16/3>3\sqrt3$. The recorded object has $u=104$. The general mass-gap estimate excludes a family from this target only when its resulting factor $2/p$ is below the target coefficient; a mere positive mass above $u$ is insufficient.
+- Obstruction: **Localized total-contamination control excludes a dimension-four family beyond the earlier $2u$ premise.** Let $d=4$, $u\ge104$, $a=6/5$, and $W=(1-\varepsilon)\delta_0+\varepsilon G$, where $G$ is any probability law on $(0,\infty)$, $\varepsilon<1/2$, and $\varepsilon\le Q(au)/q$. The slot-3 family takes $G=\delta_{u+u^{-2}}$ and $\varepsilon=e^{-u^2/4}$; Mills bounds give $Q(au)/q\ge(1/5)e^{-11u^2/50}\ge\varepsilon$ for every $u\ge104$. This contamination exceeds $Q(2u)/q$, since $Q(2u)/q\le[(u^2+1)/(4u^2)]e^{-3u^2/2}<\varepsilon$. At a positive-FDP contact with $r\le au$, one has $u\le x_r<r$ and $2(1-\varepsilon)H_r(x_r)=2Q(x_r)/q-\varepsilon A_r(x_r)\ge Q(x_r)/q$, where $A_r\le1$. For $u\le x<r$ the cap bound $H_r(x)\le[4\sqrt2/(3\pi)]((r-x)/r)^{3/2}$, Mills' lower bound, and $\max_{h\ge0}h^{3/2}e^{-rh/2}=(3/r)^{3/2}e^{-3/2}$ imply $H_r(x)/Q(x)\le C(1+u^{-2})e^{r^2/2}/r^2$, with $C=(8\sqrt3/\sqrt\pi)e^{-3/2}<2$. Therefore $g(r):=r^2e^{-r^2/2}<4(1+u^{-2})q$. Since $g$ decreases on $[u,\infty)$ and $g(u)/q\ge\sqrt{2\pi}u^3/2>4(1+u^{-2})$, let $b>u$ solve $g(b)=4(1+u^{-2})q$. Every positive-FDP radius at most $au$ exceeds $b$. The exact $\chi_4$ tail gives $\Pr(R\ge b)=2(1+u^{-2})(1+2/b^2)q<(5/2)q$. Separately $\Pr(R>au)/q<3u^3e^{-11u^2/50}\le18/[(11/50)^3u^3]<1/2$, by $e^y\ge y^3/6$. Thus FDR is below $3q$. Since $M_4=1/\pi$, the target coefficient exceeds seven, and $\pi_0=1-\varepsilon>1/2$, this family fails NOT. The proof uses only $A_r\le1$, so it permits arbitrary alternative support under this explicit localized mass premise; it does not cover arbitrary contamination rates.
+- Obstruction: **A two-part contact split excludes the displayed near-null-bulk/remote-atom object.** Keep exactly the slot-4 parameters $d=4$, $u=104$, $\eta=u^{-1}$, $\varepsilon=e^{-16}$, $W=(1/2)\delta_0+(1/2-\varepsilon)\delta_\eta+\varepsilon\delta_{2u}$, and $L=1.01u=105.04$. The same cap inequality applied to $t=x-\eta$, with $u\le x<r\le L$, uses $(r+t)/2\ge.99r$ and $t/r>.98$. It yields $H_r(t)/Q(t)\le C_0\{1+(u-\eta)^{-2}\}e^{r^2/2}/r^2$, where $C_0=[4\sqrt2/(3\pi)]\sqrt{2\pi}(3/1.98)^{3/2}e^{-3/2}<.627$. Mills bounds give $Q(x-\eta)/Q(x)\le[(L+u^{-1})/(u-\eta)]e^{L\eta}<2.774$. In particular $H_r(x-\eta)<2Q(x)e^{r^2/2}/r^2$. Splitting the rejection mass as $F_{\rm low}+F_{\rm high}$ gives the conservative bounds $F_{\rm low}<4Q(x)e^{r^2/2}/r^2$ and $F_{\rm high}\le\varepsilon$. At a contact their sum is $2Q(x)/q$, so either $g(r)\le4q$ or $Q(r)\le\varepsilon q$. Let $g(b)=4q$ and $Q(c)=\varepsilon q$. For $r\le L$ the positive-FDP event lies in $\{r\ge b\}\cup\{r\ge c\}$. The exact radial tail gives $\Pr(R\ge b)<2.001q$. Mills bounds give $Q(L)/Q(u)<10^{-47}<2\varepsilon$, hence $c<L$, and $\Pr(R\ge c)/q\le\sqrt{2\pi}(1+L^2/2)(L+L^{-1})e^{-16}<1/4$. Finally $\Pr(R>L)/q<.001$. Thus FDR is below $(2.001+1/4+.001)q<3q$, below the target's $7q/2$ lower bound because $\pi_0=1/2$. These numerical constants are tied to the displayed $u$, bulk displacement, and rare mass. This argument does not exclude arbitrary near-null bulk or arbitrary remote mixtures.
+- Obstruction: **Nearly null alternatives retain an FDP dilution factor even when the true-null mass vanishes.** For the slot-5 family, let $d=4$, $u\ge104$, $\theta=u^{-2}$, $\eta=e^{-u^4}$, and $W=\theta\delta_0+(1-\theta-\eta)\delta_\eta+\eta\delta_{u+u^{-1}}$. Convexity of $H_r$ on $[0,\infty)$, including its zero extension after $r$, gives $H_r(x-\eta)+H_r(x+\eta)\ge2H_r(x)$ for $x\ge u>\eta$. Therefore $F_r(x_r)\ge2(1-\eta)H_r(x_r)$ and $\operatorname{FDP}(r)\le\theta/(1-\eta)$. For $u\le x<r\le2u$, put $s=r-x$. The shifted cap is bounded by $[4\sqrt2/(3\pi)]((s+\eta)/r)^{3/2}$. Combining it with $x^2-r^2\le-rs$ and the same elementary maximization gives $H_r(x-\eta)/Q(x)\le C e^{r\eta/2}(1+u^{-2})e^{r^2/2}/r^2$, where $C<7/4$ and $Ce^{r\eta/2}<2$. The high-mean atom contributes at most $\eta$, so $F_r(x)\le2H_r(x-\eta)+\eta$. Since $Q(2u)/q\ge(1/5)e^{-3u^2/2}>\eta$, a positive-FDP contact with $r\le2u$ again forces $g(r)<4(1+u^{-2})q$. The same $b$ as in the localized-contamination argument has $\Pr(R\ge b)<(5/2)q$, while $\Pr(R>2u)/q\le16/u^3<1/2$. Thus $\Pr(\operatorname{FDP}(R)>0)<3q$ and $\operatorname{FDR}<3q\theta/(1-\eta)<4q\pi_0$, below the target coefficient. The dilution inequality generalizes to a total mass $1-\varepsilon$ on $[0,a]$ with $a\le u$: convexity gives $\operatorname{FDP}\le\pi_0/(1-\varepsilon)$. The positive-FDP event estimate additionally needs a localized upper envelope and a rare-mass premise; the dilution inequality alone does not bound its probability. This proof-like restricted-family step was saved by native `record_idea` as draft approach `idea_16eded23242e`.
+
+## Limitations
+
+- All five named round-10 candidate records pass their recorded H1--H6 checks and fail NOT. The two dimension-five cases are distinct explicit mixtures with different mass floors. The three dimension-four cases require different small-mass or bulk-displacement premises. No survivor was recorded in this pack. No object coverage is inferred for slots absent from the round's candidate list.
+- To reconstruct the one-line failures, native `show` was used only for the five candidate IDs named in the context pack and the two named population definitions. The definitions establish the exact rejection mass, smallest finite contact, contact identity, and no-contact convention. The target's Proof, plans, other candidate bodies, and research folders were not read or scanned.
+- The dimension-five straddling-mixture and strong-quarter calculations extend to $u\ge104$ with their stated weights and means. The fixed near-null/remote-atom constants were checked only at $u=104$. The intermediate-contamination and exponentially small displacement calculations apply for every $u\ge104$ only under their explicit displayed premises. No uniform-in-dimension extension of these concrete cap or radial-tail constants is established here.
+- The fixed-cutoff mass-gap implication is valid in any target dimension when its quantitative premises hold. The convexity-based FDP dilution inequality is also valid in every target dimension when the bulk means lie below $u$. The subsequent event bounds in this record use the dimension-four cap and exact $\chi_4$ tail and therefore do not establish dimension-uniform event estimates.
+- Arbitrary mixtures lacking these mass floors, localized small-contamination conditions, or nearly null bulk premises remain uncovered unless an earlier obstruction applies. In particular, this round does not control global first-contact births or switches, positive variation as a measure, conditional radial transport, or arbitrary joint choices of $W,d,q$. Each displayed bound uses an event inclusion or an admissible cutoff that is sufficient only within its premises.
+- These restricted-family exclusions and their exact Gaussian radial-directional identities give no proof-verification verdict for the unrestricted target, no finite Gaussian-vector approximation, and no resolution of either original unrestricted Gaussian BH target. Existing research files and loop transitions were not edited. The workspace has no Git repository, so a HEAD/diff concurrency checkpoint was unavailable; the round-record destination was checked absent immediately before creation.
+
+Object search: 54 candidate(s) in 10 round(s).

@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_whole_payoff_cameron_martin_balance",
+  "digest": "4efb85610025eed6de96d1f8366e3dbf0e8f71048af539f188e9f7d61262cffa",
+  "approvedAt": "2026-11-09T22:40:16.855Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "1290e0b2b3058fd8c486827854a892092912869a544c3ce9e36d015c6eacbd8f",
+  "extension_version": "0.0.4"
+}

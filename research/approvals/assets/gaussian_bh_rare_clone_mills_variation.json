@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_rare_clone_mills_variation",
+  "digest": "4cac41bbab5e8887630b61fbbc3e46980c13834c7a79efaa6c527c7ba51d5d60",
+  "approvedAt": "2026-11-09T00:30:23.803Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "c7939c23ae577add03c56534f1a6ec07179140d4317ffdd0a9a1aaf699a67fea",
+  "extension_version": "0.0.4"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "multifactor_radial_fdr_bounds",
+  "digest": "2cc787f55829b5af0d7382d49c33731655e62db6e263510e0eab5d1ca52cdbfc",
+  "approvedAt": "2026-11-04T07:06:23.672Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "c1bc65d229f2e3db424011091017ad2c03cd4b99cd43b5a9fc22c50df1a8d8a7",
+  "extension_version": "0.0.4"
+}

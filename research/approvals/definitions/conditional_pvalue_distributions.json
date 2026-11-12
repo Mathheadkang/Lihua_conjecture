@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "conditional_pvalue_distributions",
+  "digest": "77ce2aa2ed17706abfefbad6343ad90d8354ee3d9f30d452b1c3fc7db92c57ac",
+  "approvedAt": "2026-11-04T07:15:21.540Z",
+  "source": "auto",
+  "performed_by": "mingshuostat@gmail.com",
+  "statement": "77ce2aa2ed17706abfefbad6343ad90d8354ee3d9f30d452b1c3fc7db92c57ac",
+  "extension_version": "0.0.4"
+}

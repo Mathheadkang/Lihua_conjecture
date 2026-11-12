@@ -1,0 +1,22 @@
+{
+  "revision": 9,
+  "digest": "4a945f64e512f65df2f30405a25affa0c913d8363ee11a06f29de9842b0f8215",
+  "facets": {
+    "problem": "d889bdc0e9dad247e8fb44b02f6064554302fbf0e4e1dd167727097396a9afe6",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "c2fda78de567c01ab4cd0cf56309c5e499d559772f2ad63d7d6fbd0661fecb20",
+    "required": "968dddfabbd4ae9a320a23b989f4b6061817b04916ca401f7be32d26769d205e"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    }
+  ],
+  "approvedAt": "2026-11-07T23:17:25.279Z",
+  "performed_by": "unknown"
+}

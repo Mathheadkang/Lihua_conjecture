@@ -1,0 +1,22 @@
+{
+  "revision": 1,
+  "digest": "c6ad86058396990de43363589651d3d69d3c314028868892dbc0d79b02db8903",
+  "facets": {
+    "problem": "c78990bfdde79dffec3d47b058dc396e7df49af432f2eea62c25834711d957a6",
+    "scope": "accb01bf35cb04a68682b6d1c21ce2eae39cfcfffef374c466c9c2852fe66e4a",
+    "contribution": "6fc127eee2bdc7cd70d77a82899804f827f2f58395cf3d73ebfe182f2d4efe41",
+    "required": "70bf57c8d13494d97a85a898ea3834638d11280e2cb71fce6033d1995c27c07d"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_two_sided_sharp_upper",
+      "role": "Sharp uniform upper bound or a verified asymptotic refutation for two-sided tests"
+    },
+    {
+      "id": "gaussian_bh_one_sided_sharp_upper",
+      "role": "Sharp uniform upper bound or a verified asymptotic refutation for one-sided tests"
+    }
+  ],
+  "approvedAt": "2026-11-04T06:15:05.486Z",
+  "performed_by": "unknown"
+}

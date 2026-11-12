@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "gaussian_oriented_null_directional_entropy",
+  "digest": "5648101dba078aedadbbb13ea352082bf65c686780a3fe555ce6be586841cc68",
+  "approvedAt": "2026-11-04T06:34:31.193Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "5648101dba078aedadbbb13ea352082bf65c686780a3fe555ce6be586841cc68",
+  "extension_version": "0.0.4"
+}

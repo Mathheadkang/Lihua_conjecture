@@ -1,0 +1,98 @@
+{
+  "revision": 27,
+  "digest": "f4626d70ce0a63614b648bf28be7fdecc11ad090d122279afe5526470b51b681",
+  "facets": {
+    "problem": "d889bdc0e9dad247e8fb44b02f6064554302fbf0e4e1dd167727097396a9afe6",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "739f6d9831cfc245eba7c3ebf0f11c361e4b252fb8e0961d14d0234db33236c9",
+    "required": "c89bd8247263dcfb4661eaf0c052672d3b42a51dced70b11241bb03fb7a9f292"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_mixed_coherence_trace_budget",
+      "role": "Auxiliary two-scale repair from the second autonomous reassessment - test the mixed square-root and entropy-linear Mills trace budget while preserving both main goals and the refuted earlier budget"
+    },
+    {
+      "id": "gaussian_bh_correlated_clone_first_variation",
+      "role": "Supporting finite-model identity for actual-rank correlated-clone perturbations, preserving signed FDP face jumps for a future extremal comparison"
+    },
+    {
+      "id": "gaussian_bh_growing_clone_compensated_variation",
+      "role": "Supporting rank-sensitive compensated private-clone variation with copy count tending to infinity before noise vanishes, restricted to a nonzero chosen mean"
+    },
+    {
+      "id": "gaussian_bh_rare_clone_mills_variation",
+      "role": "Supporting inverse-Mills rank variation from rare downward mean clones, allowing zero-mean true nulls and recording dimension-independent parameter-measure costs"
+    },
+    {
+      "id": "gaussian_bh_common_loading_wasserstein_fdr_continuity",
+      "role": "Supporting continuity of the full population BH FDR under Wasserstein parameter convergence with a fixed common Gaussian loading, including microscopic ranks and competing largest crossings"
+    },
+    {
+      "id": "gaussian_bh_diffuse_fold_deformation_recovery",
+      "role": "Supporting sublinear-cost signed deformation recovery at an isolated diffuse Gaussian BH fold, with canonical finite competitors and a conditional near-maximality balance"
+    },
+    {
+      "id": "gaussian_bh_quadratic_penalized_population_maximizers",
+      "role": "Supporting exact completed-law maximizers with a vanishing quadratic mean penalty and lawful deterministic-transport inequalities at fixed common loading and finite ambient dimension"
+    },
+    {
+      "id": "gaussian_simes_one_sided_uniform_linear_bound",
+      "role": "Necessary global-null Gaussian Simes subgoal from the shared idea, promoted from an agreed conjecture without claiming a proof or mixed-null sufficiency"
+    },
+    {
+      "id": "gaussian_bh_common_loading_uniform_submodel_compression",
+      "role": "Supporting uniform approximation of actual full FDP and normalized BH rank by random finite submodels at fixed positive common loading"
+    },
+    {
+      "id": "gaussian_bh_exchangeable_array_variational_compactification",
+      "role": "Supporting cross-dimension marked-array completion with faithful finite-model values, quadratic and q-normalized extrema, and a verified directing-measure representation"
+    },
+    {
+      "id": "gaussian_bh_private_noise_cutoff_signed_transport_variation",
+      "role": "Supporting complete signed mean-and-level variation at private-noise-smoothed rank-cutoff extrema, retaining all suffix minima and recovering finite competitors through values"
+    },
+    {
+      "id": "gaussian_bh_averaged_signed_mean_level_complementarity",
+      "role": "Supporting countably additive averaged signed-gradient complementarity at actual regularized Gaussian BH maxima, with joint level normalization and an exact total-flux identity"
+    },
+    {
+      "id": "gaussian_bh_private_cutoff_particle_mass_variation",
+      "role": "Supporting complete signed particle-mass and level variation at fixed private-noise and rank-cutoff regularizers, with actual-rank survival control and lawful finite competitors"
+    },
+    {
+      "id": "gaussian_bh_global_particle_potential_certificate",
+      "role": "Supporting a global averaged particle-potential certificate at genuine regularized Gaussian BH maxima, with coherent mean gradients and an explicit true-versus-false tag price"
+    },
+    {
+      "id": "gaussian_bh_same_potential_radial_loading_variation",
+      "role": "First executable checkpoint selected by independent replanning - radial loading heat variation of the same matched particle potentials, plus a fixed-rank Gaussian integration-by-parts identity retaining every baseline derivative"
+    },
+    {
+      "id": "gaussian_bh_actual_radial_loading_signed_variation",
+      "role": "Resumed-run next checkpoint - complete signed response of actual Gaussian BH cutoff FDR to lawful radial loading transport, retaining every active suffix minimum and finite endpoint recovery"
+    },
+    {
+      "id": "gaussian_bh_whole_payoff_cameron_martin_balance",
+      "role": "Next actual-selection checkpoint - joint marked-rank sandwiches, dimension-independent Cameron-Martin Lipschitz control and Gaussian integration by parts for the entire conditional cutoff payoff"
+    },
+    {
+      "id": "gaussian_bh_finite_signed_p_path_identity",
+      "role": "New teaching-route first checkpoint - exact unregularized finite conditional-p-path signed jump identity, including singular covariance, negative true means and simultaneous rank changes"
+    },
+    {
+      "id": "gaussian_bh_ou_integrated_signed_budget_bridge",
+      "role": "Alternative direct quantitative gate - control excess full BH FDR by the dimension-independent OU integrated gradient response, preserving signed rank changes"
+    }
+  ],
+  "approvedAt": "2026-11-09T21:50:48.780Z",
+  "performed_by": "unknown"
+}

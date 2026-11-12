@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_global_particle_potential_certificate",
+  "digest": "1c5296ffe79b67c5c4506b2eeef04d43af431ed20ae448e7e3fe432f555afed0",
+  "approvedAt": "2026-11-09T10:05:54.435Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "5c18aaddd67e681c31bff48ee957bb54c0681a855d0bfd853d043ea65e593f90",
+  "extension_version": "0.0.4"
+}

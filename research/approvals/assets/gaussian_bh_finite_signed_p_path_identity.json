@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_finite_signed_p_path_identity",
+  "digest": "8ad2ef9d26c5c8e8a6438f6668cba151ac169f7f8de318deac58a012689fde3a",
+  "approvedAt": "2026-11-09T21:22:06.131Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "d7a8a4f0b24ea902729e5f1f7788367f78c722f470f62ba2b0bf55c676594eec",
+  "extension_version": "0.0.4"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_actual_radial_loading_signed_variation",
+  "digest": "e05416abfffa2774577ac1fed1e97a63eeb26ff734e2b88b4573604bee24b1df",
+  "approvedAt": "2026-11-09T19:20:50.085Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "7fdc4735d0d5e381ad9fbb0ee8f7ab5df233763c161d5f77194d54300e4e7cac",
+  "extension_version": "0.0.4"
+}

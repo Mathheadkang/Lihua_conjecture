@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_negative_null_boundary_strip",
+  "digest": "e09e413d94fad3b27ddbaef8a457df5dd1f7635d8b1f18807e2269692767edf0",
+  "approvedAt": "2026-11-11T19:54:40.961Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "8cb3729d0db20bedb0d623cce2676cfa7d01e08b10180884af70e5a810e0b568",
+  "extension_version": "0.0.4"
+}

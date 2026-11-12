@@ -1,0 +1,22 @@
+{
+  "revision": 32,
+  "digest": "a1f715203ea49d5e02317bf0af3fb00d15f7db19e920ccdd7fcdeca65741d44b",
+  "facets": {
+    "problem": "384cba4f1d2f83f2a533f672e5ade633c88aeee28e863db4f59e582b8baa0238",
+    "scope": "0180fd5b00e4e95988205fddd7e6434f839f5137e3b27fc03d9fe6ab6ae6273f",
+    "contribution": "6a8566e5b094d7bcc26733e31ce0b2d2fe9abd0ec2f07138a2824799b4c43a9b",
+    "required": "29a3c2cd07caff76228d4c8e037b97e4ca3c000d150bb3d48fe920f486ac0db2"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "First priority - universal expected-FDR order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Second priority - universal expected-FDR order bound; a verified corollary via signed duplication is sufficient"
+    }
+  ],
+  "approvedAt": "2026-11-11T08:05:35.174Z",
+  "performed_by": "unknown"
+}

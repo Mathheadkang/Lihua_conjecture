@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_conditional_subpoisson_calibration",
+  "digest": "d6063eb85a2d78391dd9c2dfbc985f69570c6f2932020a75d233a62e4e928d48",
+  "approvedAt": "2026-11-11T22:45:41.759Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "690ddb01c6ce756d2366c4901fffdbdfa396da6353901f8ea0cfffa828f89b29",
+  "extension_version": "0.0.4"
+}

@@ -1,0 +1,25 @@
+slug: bakry_gentil_ledoux2015_harnack
+title: On Harnack inequalities and optimal transportation
+authors: [Dominique Bakry, Ivan Gentil, Michel Ledoux]
+year: 2015
+doi: 10.2422/2036-2145.201210_007
+source_url: https://www.math.univ-toulouse.fr/~ledoux/Harnack.pdf
+publication_record: https://journals.sns.it/index.php/annaliscienze/article/view/389
+source_pdf_local: research-local/raw_papers/bakry_gentil_ledoux2015_harnack.pdf
+markdown: paper.md
+scientific_version: Author-hosted 22-page manuscript; no version date printed on inspected title page. Locations refer to this PDF, not journal pagination.
+extraction:
+  method: PDFKit embedded-text extraction with manually normalized mathematical formulas and paraphrased context
+  generated_at: 2026-11-09T20:01:31Z
+  source_sha256: 962efdc7fe1aaacecbe8db47d15a91fa76d80b3d5c7eef2ab57a476f5884990f
+  reviewed: false
+  scope: Partial mathematical extraction of source setup on pp. 1-2 and 7, profile properties and Proposition 2.1 equation (16) on p. 8, and proof plus gradient consequence on p. 9.
+  visually_checked_pages: [2, 8, 9]
+  limitations:
+    - This is not a whole-paper transcription or coverage claim; all other material is omitted.
+    - Proposition 2.1 equation (16) is on printed/PDF p. 8; the gradient consequence is on p. 9.
+    - Source proof starts with functions separated from zero and one; its extension to arbitrary measurable functions is asserted in its statement rather than detailed in that proof.
+    - Explicit Mehler normalization in the Library definition is an identified Gaussian specialization, not a quotation of a displayed formula in this manuscript.
+    - Scoped citation check matched title, authors, year, journal, volume, issue, pages, DOI and article type against the live publisher record; scientific locations use the author manuscript.
+    - Google Scholar was inaccessible; no whole-bibliography or retraction audit was performed.
+    - No independent native node verification or researcher approval is implied by source retrieval or visual inspection.

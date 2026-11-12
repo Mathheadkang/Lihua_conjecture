@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_private_noise_cutoff_signed_transport_variation",
+  "digest": "4ccb0c2bd80e8583d50d800f6faff6fb29b4e71e62797dce1d2a7efd061709d4",
+  "approvedAt": "2026-11-09T07:24:27.510Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "678b5ca0bc054ae3e466058cbe1c77cb985edbf7afbd22f2e2ab1034682a803c",
+  "extension_version": "0.0.4"
+}

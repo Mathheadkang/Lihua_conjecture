@@ -1,0 +1,36 @@
+slug: chi2024_negative_dependence
+title: Multiple testing under negative dependence
+authors: [Ziyu Chi, Aaditya Ramdas, Ruodu Wang]
+year: 2025
+source_url: https://doi.org/10.3150/24-BEJ1768
+source_pdf_url: https://sas.uwaterloo.ca/~wang/papers/2024Chi-Ramdas-Wang-BJ.pdf
+source_version: Author manuscript dated 8 May 2024
+source_pdf_local: research-local/raw_papers/chi2024_negative_dependence.pdf
+markdown: paper.md
+publication:
+  journal: Bernoulli
+  volume: 31
+  issue: 2
+  pages: 1230-1255
+  year: 2025
+  doi: 10.3150/24-BEJ1768
+extraction:
+  method: embedded-text via macOS PDFKit; manual mathematical normalization against rendered source pages
+  generated_at: 2026-11-09T05:01:43.962652+00:00
+  source_sha256: a174b4de170e71f6d72b859efc71671466e2588be19042fe749b4e9a62466779
+  reviewed: false
+  scope: Definitions on printed pp. 5, 7, 10; Theorem 8(I) and Remark 10 on printed p. 11, author-manuscript numbering
+  visually_checked_pages: [5, 7, 10, 11]
+  limitations:
+    - Scoped paraphrase only; other theorem parts, other results and proofs are not transcribed.
+    - The theorem source is the identified 2024 author manuscript; journal theorem/page numbering has not been substituted.
+    - Singular latent vectors are included by the unrestricted correlation-matrix hypothesis; the source does not explicitly use the word singular.
+    - The historical open-question paragraph is not a current exhaustive literature check.
+    - Independent node verification and researcher approval remain pending.
+citation_check:
+  checked_at: 2026-11-08
+  route: scoped primary-source verification using author PDF plus Crossref DOI record; Google Scholar unavailable
+  canonical_record: https://api.crossref.org/works/10.3150/24-BEJ1768
+  checked_fields: [title, authors, publication_year, journal, volume, issue, pages, doi, bibtex_type, author_manuscript_date, theorem_location]
+  whole_bibliography_audit: false
+  retraction_audit: false

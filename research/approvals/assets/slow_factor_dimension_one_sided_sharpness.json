@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "slow_factor_dimension_one_sided_sharpness",
+  "digest": "468e3d6840d6f19b209740ada6e07bd5093aba8f234a1f40a99786c621c2a99a",
+  "approvedAt": "2026-11-04T07:29:11.333Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "41c776b5ba7a93e0fc85e9c920013f0df855975e6702b5c0f76f09e9b822fd15",
+  "extension_version": "0.0.4"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "gaussian_ornstein_uhlenbeck_semigroup",
+  "digest": "dbf032c37d4fbb703da5ab5dfacf0c2a4e6f92c33e3721ae160549e94a2e479e",
+  "approvedAt": "2026-11-09T20:03:08.395Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "dbf032c37d4fbb703da5ab5dfacf0c2a4e6f92c33e3721ae160549e94a2e479e",
+  "extension_version": "0.0.4"
+}

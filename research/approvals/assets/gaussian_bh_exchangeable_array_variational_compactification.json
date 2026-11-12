@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_exchangeable_array_variational_compactification",
+  "digest": "e60327324738359982e611cc1697a962b7d175709dcd038ccfc492c967880102",
+  "approvedAt": "2026-11-09T06:39:51.655Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "82e91305e89e8c5f50be87b28d54dc08a251a8adf76f9407859ccdd4f3536aee",
+  "extension_version": "0.0.4"
+}

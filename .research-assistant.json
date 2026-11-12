@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "layout": "overleaf-shared",
+  "sync": {
+    "remote": "origin",
+    "branch": "main",
+    "overleafBranch": "main",
+    "strategy": "rebase",
+    "include": [],
+    "signCommits": false
+  },
+  "latex": {
+    "projectRoot": ".",
+    "main": "main.tex",
+    "bibliography": "references.bib",
+    "macros": [
+      "macros.tex"
+    ],
+    "notations": "notations.tex",
+    "sections": "sections"
+  },
+  "research": {
+    "root": "research",
+    "project": "research/project.md",
+    "paperIndex": "research/papers.md",
+    "assets": "research/assets",
+    "definitions": "research/definitions",
+    "ideas": "research/ideas",
+    "plans": "research/plans",
+    "papers": "research/papers",
+    "localSourcePdfs": "research-local/raw_papers"
+  }
+}

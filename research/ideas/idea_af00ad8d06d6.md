@@ -1,0 +1,21 @@
+---
+type: idea
+title: >-
+  Recover signed fold variation by local quantile bumps of sublinear Wasserstein
+  cost
+status: resolved
+idea_kind: approach
+origin: agent
+related_assets:
+  - gaussian_bh_one_sided_universal_order_upper
+  - gaussian_bh_common_loading_wasserstein_fdr_continuity
+tags: []
+resolved_by: gaussian_bh_diffuse_fold_deformation_recovery
+---
+
+Concrete next deformation-recovery prototype developed from teaching-window idea_8a445ee0b200; not proved or a main bound. Fix q in(0,1/2), sigma in(0,1), p in(0,1) and distinct unit residual directions v0,v1. Let X0=sqrt(1-sigma²)X(v0)+sigma Z, Y=sqrt(1-sigma²)X(v1)+sigma Z, so both standard normal and rho=sigma²+(1-sigma²)<v0,v1> lies in(-1,1). Population pi has true atom mass p at(theta=0,v0,ell=1) and alternative mass1-p with theta=vartheta(c), v1,ell=0, c uniform(0,1); vartheta is C³, strictly decreasing and positive on[0,1]. Set u(r)=S^{-1}(qr), r(c)=p+(1-p)c and g(c)=u(r(c))-vartheta(c). Assume g has a unique global minimum b at c* in(0,1), with g''(c*)>0. Define r*=r(c*). The full common-cutoff FDR must be derived, not assumed: with r_vartheta(y)=sup({p} union {r(c): y>=g(c),0<c<=1}), true rejection occurs exactly when X0>=u(r_vartheta(Y)); hence F=integral k(y,r_vartheta(y))phi(y)dy, k(y,r)=p/r S((u(r)-rho y)/sqrt(1-rho²)). This preserves the actual largest crossing and labels, including false-only events with FDP0.
+Choose a fixed smooth bump chi, 0<=chi<=1, chi=1 on[-1,1], chi=0 outside[-2,2]. For each sign delta=+1,-1 define vartheta_epsilon^delta(c)=vartheta(c)-delta epsilon chi((c-c*)/(K sqrt(epsilon))). For K sufficiently large depending on local curvature, and epsilon sufficiently small, these remain positive strictly decreasing quantiles. Their barriers g_epsilon=g+delta epsilon chi have exact global minimum b+delta epsilon at c*. Indeed the central bump is constant, while quadratic isolation makes g-b>=2epsilon outside its central K sqrt(epsilon) band; the global gap controls points away from c*. The parameter-law cost is at most4K(1-p)epsilon^(3/2)=o(epsilon). The actual largest-with-true ranks differ only for Y in an O(epsilon) window around b; when both folds exist their ranks are within O(sqrt(epsilon)) of r*. Thus the candidate signed formula is
+lim_{epsilon->0}(F(pi_epsilon^delta)-F(pi))/epsilon = -delta phi(b)[k(b,r*)-k(b,p)].
+Both signs and the full jump, not its positive or absolute part, matter. The contribution of common-active branches should be O(epsilon^(3/2)); the birth/death window of exact length epsilon gives the displayed term. Prove the global-rank routing, not just the minimum shift.
+The approved W1 continuity/finite-approximation lemma can then choose canonical finite Gaussian competitors nu_epsilon^delta with W1(nu_epsilon^delta,pi_epsilon^delta)<=epsilon² and FDR error<=epsilon² for each fixed epsilon. Consequently W1(nu_epsilon^delta,pi)=o(epsilon) and the same normalized FDR limit holds, with no forbidden epsilon-versus-copy-count constraint: these are different deformations, not the old rare-clone law. As a conditional consequence, if a finite-lambda comparison F(nu)<=F(pi)+lambda W1(nu,pi) holds against every canonical finite competitor at the same q,sigma, both signs force k(b,r*)=k(b,p). No Ekeland-point existence or membership in this special family is assumed proved. Hypotheses are nonempty: choose linear vartheta(c)=M-a c, M>a>0 and q(1-p)/phi(u(1))<a<q(1-p)/phi(u(p)); strict convexity yields an interior minimum. This only prototypes recovery for one isolated diffuse fold, not arbitrary completed laws, inverse-Mills equality, q-scaled zero-null flux or the universal target.
+Verified motivating source only: Sylvia Serfaty, Gamma-convergence of gradient flows on Hilbert and metric spaces and applications, DCDS31(4)(2011)1427-1451, DOI10.3934/dcds.2011.31.1427; author PDF https://math.nyu.edu/~serfaty/gcv-erice2.pdf (12 July2010), section1 Theorem1 and following item6, author-PDF printed p5, explicitly distinguish value convergence from slope control and propose deformation lifting. Publisher metadata checked https://www.aimsciences.org/article/doi/10.3934/dcds.2011.31.1427 . This motivates recovery; BH is not asserted to satisfy the gradient-flow theorem.

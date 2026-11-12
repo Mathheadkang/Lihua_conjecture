@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_two_sign_curve_exclusion_large_u_exq",
+  "digest": "2011518447c3aef7179499ebb5c5d3edeb30a9626748bc580b321959ced48178",
+  "approvedAt": "2026-11-06T22:36:45.123Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "422a8915f80d37bc2594b42629202589fe6eb5d11efe2e43269d21df06b3e719",
+  "extension_version": "0.0.4"
+}

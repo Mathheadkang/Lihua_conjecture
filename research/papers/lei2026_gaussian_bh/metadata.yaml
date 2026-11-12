@@ -1,0 +1,38 @@
+slug: lei2026_gaussian_bh
+title: "How Much Can Gaussian Dependence Inflate the Benjamini-Hochberg Procedure's FDR?"
+authors: [Lihua Lei]
+year: 2026
+arxiv: 2607.14812v4
+version: 4
+version_date: 2026-10-09
+pdf_title_page_date: 2026-10-12
+bibtex_key: lei2026_gaussian_bh
+source_url: https://arxiv.org/abs/2607.14812v4
+source_pdf_local: research-local/raw_papers/lei2026_gaussian_bh.pdf
+supplied_pdf: bh_fdr_research/reference_arxiv/arxiv_2607.14812v4.pdf
+supplied_tex: bh_fdr_research/reference_arxiv/FDR_BH_v4.tex
+markdown: paper.md
+extraction:
+  method: embedded-text
+  tool: macOS PDFKit via Swift with a temporary writable module cache
+  generated_at: 2026-11-04T06:26:36.264424Z
+  source_sha256: "d4db4a2847a2bc642c4a9933c494c09754f894231d71267006216175bbadf53e"
+  supplied_tex_sha256: "5f181b3d152c99cc7643d009b8996fca32b54ab52542327873c8721139cf2a1a"
+  page_count: 96
+  text_pages: 96
+  reviewed: false
+  visually_checked_pages: [1, 3, 4, 5, 43, 59, 60, 66, 71, 80, 83, 87, 88, 89, 94]
+  limitations:
+    - PDF text extraction loses overbars, radicals, integrals and mathematical reading order; all raw page blocks carry uncertainty warnings.
+    - Key extracted formulas were checked against supplied TeX and rendered pages; the complete exact supplied TeX is retained in the working transcription.
+    - Source figures were visually inspected on pages 3 and 4; their pixels are not reproduced in the Markdown.
+    - The import and source-based statements are not an independent proof audit or researcher review.
+    - The full source bibliography was not imported, verified or checked for retractions.
+    - Remote PDF byte parity was not checked; both supplied originals and the local PDF copy were hash-verified.
+verification:
+  scope: one primary arXiv record and selected source claims
+  checked_at: 2026-11-04T06:26:36.264424Z
+  primary_record: https://arxiv.org/abs/2607.14812v4
+  matched: [title, author, year, arxiv_identifier, version, version_date, subject_class, page_count]
+  status: source_identity_matched
+  mathematical_status: draft_source_extraction

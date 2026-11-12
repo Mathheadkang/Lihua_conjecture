@@ -1,0 +1,42 @@
+{
+  "revision": 16,
+  "digest": "5aac79464a534b5afd2eabb7d9fccb77acb5cc903b3e52b1ff0b855f21ac8cd4",
+  "facets": {
+    "problem": "d889bdc0e9dad247e8fb44b02f6064554302fbf0e4e1dd167727097396a9afe6",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "d72a4f8c5264c6ef50183aed94af470e256bd2ae2d160121550ed37f046261dd",
+    "required": "fe6dd41928664eeabcc0b959cb3227dee83017fb87787a3455e3b5e8a0cac549"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_mixed_coherence_trace_budget",
+      "role": "Auxiliary two-scale repair from the second autonomous reassessment - test the mixed square-root and entropy-linear Mills trace budget while preserving both main goals and the refuted earlier budget"
+    },
+    {
+      "id": "gaussian_bh_correlated_clone_first_variation",
+      "role": "Supporting finite-model identity for actual-rank correlated-clone perturbations, preserving signed FDP face jumps for a future extremal comparison"
+    },
+    {
+      "id": "gaussian_bh_growing_clone_compensated_variation",
+      "role": "Supporting rank-sensitive compensated private-clone variation with copy count tending to infinity before noise vanishes, restricted to a nonzero chosen mean"
+    },
+    {
+      "id": "gaussian_bh_rare_clone_mills_variation",
+      "role": "Supporting inverse-Mills rank variation from rare downward mean clones, allowing zero-mean true nulls and recording dimension-independent parameter-measure costs"
+    },
+    {
+      "id": "gaussian_bh_common_loading_wasserstein_fdr_continuity",
+      "role": "Supporting continuity of the full population BH FDR under Wasserstein parameter convergence with a fixed common Gaussian loading, including microscopic ranks and competing largest crossings"
+    }
+  ],
+  "approvedAt": "2026-11-09T00:34:36.066Z",
+  "performed_by": "unknown"
+}

@@ -1,0 +1,43 @@
+---
+type: theorem
+title: Sharp uniform upper-bound target for two-sided Gaussian BH
+status: draft
+source:
+  kind: original
+depends_on:
+  - gaussian_bh_two_sided_exact_pivotal_identity
+  - gaussian_bh_baseline_subtracted_pivotal_core
+  - gaussian_bh_block_deficit_curve_reduction
+  - gaussian_bh_two_sign_curve_exclusion_large_u_exq
+  - gaussian_simplex_factor_envelope_obstruction
+  - gaussian_unit_variance_mixture_hugging_rigidity
+  - gaussian_sibling_factor_bounds_and_critical_background_obstruction
+uses_definitions:
+  - gaussian_multiple_testing_model
+  - gaussian_test_pvalues
+  - benjamini_hochberg_step_up
+  - false_discovery_rate
+  - gaussian_worst_case_bh_fdr
+tags:
+  - gaussian
+  - benjamini_hochberg
+  - two_sided
+  - sharp_upper_bound
+  - conjecture
+---
+
+## Statement
+
+For the [uniform worst-case Gaussian BH false discovery rate](../definitions/gaussian_worst_case_bh_fdr.md), the proposed two-sided bound is
+$$
+\limsup_{q\downarrow0}\frac{F_2(q)}{q\sqrt{\log(1/q)}}\leq\frac{1}{2\sqrt\pi}.
+$$
+Equivalently, for every $\varepsilon>0$ there is $q_\varepsilon\in(0,1)$ such that, for every $q\in(0,q_\varepsilon)$ and every admissible [Gaussian multiple-testing model](../definitions/gaussian_multiple_testing_model.md) $(N,\theta,\Sigma)$,
+$$
+\operatorname{FDR}_{\mathrm{BH}}^{(2)}(q;N,\theta,\Sigma)\leq\left(\frac{1}{2\sqrt\pi}+\varepsilon\right)q\sqrt{\log(1/q)}.
+$$
+Here the [Gaussian test p-values and true nulls](../definitions/gaussian_test_pvalues.md) are $p_i^{(2)}=2\overline\Phi(|T_i|)$ and $I_0^{(2)}(\theta)=\{i:\theta_i=0\}$; the [ordinary Benjamini-Hochberg step-up procedure](../definitions/benjamini_hochberg_step_up.md) and [false discovery rate](../definitions/false_discovery_rate.md) are used exactly as defined. The quantifiers allow arbitrary dependence of $N$, $\theta$, and $\Sigma$ on $q$, including singular positive-semidefinite unit-diagonal covariance matrices.
+
+## Research status
+
+This node records the conjectured unrestricted upper-bound target from the project specification. It supplies no proof or verification verdict. The proposed leading constant is a target, not a proved sharp constant.

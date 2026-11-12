@@ -1,0 +1,15 @@
+---
+type: idea
+title: >-
+  Prove total-variation continuity of full population BH FDR after a fixed
+  common-factor regularization
+status: draft
+idea_kind: approach
+origin: agent
+related_assets:
+  - gaussian_bh_one_sided_universal_order_upper
+  - gaussian_bh_rare_clone_mills_variation
+tags: []
+---
+
+Proposed concrete next lemma for reassessment; not yet independently proved/approved. Fix q in (0,1), sigma in (0,1), residual isonormal Gaussian X(v) on a separable Hilbert space, and independent Z~N(0,1). A countably atomic parameter law pi on (theta,v,label), ||v||=1 and one-sided label determined by theta<=0, gives scores theta+sqrt(1-sigma²)X(v)+sigma Z. Define H_pi(r)=pi{p<=qr}, V_pi(r)=pi{true and p<=qr}, R_pi=sup{r>0:H_pi(r)>=r}, full FDP=V_pi(R_pi)/R_pi or0. Goal: if pi_n->pi in TV, then expected full FDP converges, despite competing roots and vanishing ranks. Candidate proof: (1) Conditional on the residual field, every score increases by the same sigma Z. Thus R_pi(z) is nondecreasing; positive roots are attained with H(R)=R. Uniform TV difference gives sup_r |H_n-H|<=delta_n and same for V. For any eta>0, a qualifier at (r,z-eta) persists at slightly lower r for pi_n at z because the common score increase pays the small threshold difference and the delta_n mass error. Conversely a qualifier r_n>=a at z for pi_n yields a qualifier r_n-2delta_n for pi at z+eta for n large, using u(q(r_n-2delta_n))-u(qr_n) uniformly small on r_n>=a. This should sandwich liminf/limsup R_n(z) between R_pi(z-eta) and R_pi(z+eta), up to an arbitrarily small rank cutoff. At continuity points of monotone R_pi, R_n(z)->R_pi(z). (2) For each fixed parameter atom and residual field, its score is strictly increasing in z whereas u(q R_pi(z)) is nonincreasing wherever R>0, so equality at cutoff occurs at at most one z. Countably many atoms => a.e z no mass at the cutoff. Hence for R_pi(z)>0, TV convergence and R_n convergence imply numerator and FDP convergence. (3) Handle R_pi=0 and all microscopic ranks uniformly across pi using conditional-on-Z marginal bounds, not pointwise FDP continuity: for a in (0,1), FDP 1_{0<R<=a} <= sum_true w q/p 1_{p<=qa}, so conditional expectation <= q integral_(0,qa] dF_z(t)/t, F_z(t)=S((S^{-1}(t)-sigma z)/sqrt(1-sigma²)). With any exponent 1<b<1/(1-sigma²), F_z(t)=O_z(t^b), making this vanish as a->0 for fixed z. Cap by1 and integrate Z by dominated convergence. (4) Truncate ranks then apply bounded convergence to finish FDR continuity. Countably atomic laws form a complete TV metric space, finite support laws are dense there, rational finite weights are represented by exact uniform copies, so this lemma would remove the semicontinuity/completeness obstruction for Ekeland at fixed sigma. Still NOT enough for the main bound: an Ekeland point may be countably infinite or singular, and the finite positive-definite rare-clone first variation cannot be applied there without a new extension or valid near-maximal transfer; zero-null flux/q-scale also missing. No claim of a finite-dimensional attained maximizer. Closely related prior ideas: idea_29dfa0708abc and idea_9e99723c91e9.

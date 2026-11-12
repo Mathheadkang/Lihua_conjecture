@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_two_to_one_signed_duplication",
+  "digest": "7dd86ef299a2cd348aab936b3c634da55ee2b0afd6e6fcea1b17d5e07373970d",
+  "approvedAt": "2026-11-07T03:04:38.293Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "987e0b4167580298c08435b5d415d205e1f3153780e8613a7e16afb82038f6a6",
+  "extension_version": "0.0.4"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "gaussian_worst_case_bh_fdr",
+  "digest": "5c3438b5ed0ad228d4c497cb1bba3bc00df045464de3732cd69e217ebf9b28a1",
+  "approvedAt": "2026-11-04T07:09:01.728Z",
+  "source": "dashboard",
+  "performed_by": "mingshuostat@gmail.com",
+  "statement": "5c3438b5ed0ad228d4c497cb1bba3bc00df045464de3732cd69e217ebf9b28a1",
+  "extension_version": "0.0.4"
+}

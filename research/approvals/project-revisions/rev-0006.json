@@ -1,0 +1,54 @@
+{
+  "revision": 6,
+  "digest": "1114cfb9f62c511e3d9ba234579b081adeaaae4ebb14378772b0f166e35a890e",
+  "facets": {
+    "problem": "2198d70f1d9ca541c054b01e0b47d5ce8b17daae8498f84af5c4640da9163740",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "f7146833f41888095ab2d9a1df1781664a2d1cfb45552bff971e133e538c9dff",
+    "required": "ac3eef46ca02a9766cb4750569c92b63193df9b655e1a2da35deb5b7afd7a679"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_conditional_tail_density_replica_bound",
+      "role": "Supporting dimension-free deterministic-level Gaussian tail-density product bound for the one-sided interpolation route; not a main-target substitute"
+    },
+    {
+      "id": "multifactor_radial_fdr_bounds",
+      "role": "Supporting finite-level radial bounds for both test types, distinct from the unrestricted targets"
+    },
+    {
+      "id": "slow_factor_dimension_one_sided_sharpness",
+      "role": "Supporting sharp one-sided theorem for slowly growing Gaussian factor dimension"
+    },
+    {
+      "id": "directional_entropy_one_sided_fdr_bound",
+      "role": "Supporting one-sided bound in terms of null-loading directional entropy"
+    },
+    {
+      "id": "gaussian_bh_negative_null_mean_nonmonotonicity",
+      "role": "Supporting explicit Gaussian construction refuting coordinatewise local monotonicity in negative null means"
+    },
+    {
+      "id": "gaussian_bh_two_sided_sharp_upper",
+      "role": "Deferred future sharp-constant target, preserved with its history and excluded from current-phase acceptance"
+    },
+    {
+      "id": "gaussian_bh_one_sided_sharp_upper",
+      "role": "Deferred future sharp-constant target, preserved with its history and excluded from current-phase acceptance"
+    },
+    {
+      "id": "spherical_isotropic_population_bh_bound",
+      "role": "Supporting uniform-in-d population bound for isotropic Gaussian directional mixtures, without a finite-vector implication"
+    }
+  ],
+  "approvedAt": "2026-11-07T00:38:04.795Z",
+  "performed_by": "unknown"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_common_loading_uniform_submodel_compression",
+  "digest": "f9773b74dfe92f32861b6560622a23d285730986a2d75a0f0a34616cd4cf0cbe",
+  "approvedAt": "2026-11-09T05:44:22.605Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "559f931c8cf870c13d2afe6f41bae6c492b9b6e20edb09e35b2275ac15e3ed5d",
+  "extension_version": "0.0.4"
+}

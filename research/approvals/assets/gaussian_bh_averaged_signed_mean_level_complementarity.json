@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_averaged_signed_mean_level_complementarity",
+  "digest": "85f91149a0a761c0aa7a3d77e3e989eb3adf1bdf6ab1f938ceb8e89d33e0f42e",
+  "approvedAt": "2026-11-09T08:38:16.758Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "e3dcfc508ee344fb52d4454b0676313187354eefcb69339fb28a33f503d7f350",
+  "extension_version": "0.0.4"
+}

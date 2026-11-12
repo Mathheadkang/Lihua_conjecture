@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_growing_clone_compensated_variation",
+  "digest": "95c781f457c011d5b96a33cf64eaf1e40199527b0d261ab70c8394903c96a4b4",
+  "approvedAt": "2026-11-08T23:32:29.560Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "46328f001bbe3459d7271829f214a45295c81cd70e93df51f95566dd3ccb4fc3",
+  "extension_version": "0.0.4"
+}

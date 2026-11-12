@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_frozen_ray_independent_equal_weights",
+  "digest": "468cfc3ca9a8ac70edec5ccaadc4d3620cad218fe9dce3c013d40c11d222b86d",
+  "approvedAt": "2026-11-11T00:58:21.640Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "50a2723662d1d1615266b7b08a764c5aeb61551586db2c3dbbdffbb9ea16dccc",
+  "extension_version": "0.0.4"
+}

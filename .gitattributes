@@ -1,0 +1,5 @@
+# research-assistant:merge:start
+# Research Assistant appends to these; union merge keeps both collaborators' new entries
+/research/papers.md merge=union
+/references.bib merge=union
+# research-assistant:merge:end

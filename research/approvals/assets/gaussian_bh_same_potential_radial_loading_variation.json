@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_same_potential_radial_loading_variation",
+  "digest": "ca1a01876ff6c47c985ced681b5dc178a002307002a429950056a6bd118c7a82",
+  "approvedAt": "2026-11-09T11:37:13.375Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "4fdd9f2e842b76290c660caf30ede224f0ee87a0eba3d74506e1fd2489a7ddf4",
+  "extension_version": "0.0.4"
+}

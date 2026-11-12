@@ -1,0 +1,10 @@
+{
+  "kind": "definition",
+  "target": "gaussian_multiple_testing_model",
+  "digest": "535694725c29c2ede682edeaeef6e40dce424d3a88330832f592e18853f99db7",
+  "approvedAt": "2026-11-04T06:34:31.174Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "535694725c29c2ede682edeaeef6e40dce424d3a88330832f592e18853f99db7",
+  "extension_version": "0.0.4"
+}

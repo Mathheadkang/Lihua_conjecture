@@ -1,0 +1,38 @@
+{
+  "revision": 3,
+  "digest": "f3d220d3213d8bcd372682b6ca10329489e6f79daeb078deeb620078db8bf981",
+  "facets": {
+    "problem": "c78990bfdde79dffec3d47b058dc396e7df49af432f2eea62c25834711d957a6",
+    "scope": "9f158c78b56c9163e99109e27ac3589aa3cdd76edbefdca157f6af6e1e625482",
+    "contribution": "b3acb8f457c039f4014fad429fa091c802a187243320d34c05ca144f7a86504d",
+    "required": "35998258c11bf40b7131c156657846110c31c06060cd13c64f6c30058259d671"
+  },
+  "required_results": [
+    {
+      "id": "multifactor_radial_fdr_bounds",
+      "role": "Supporting finite-level radial bounds for both test types, distinct from the unrestricted targets"
+    },
+    {
+      "id": "slow_factor_dimension_one_sided_sharpness",
+      "role": "Supporting sharp one-sided theorem for slowly growing Gaussian factor dimension"
+    },
+    {
+      "id": "directional_entropy_one_sided_fdr_bound",
+      "role": "Supporting one-sided bound in terms of null-loading directional entropy"
+    },
+    {
+      "id": "gaussian_bh_negative_null_mean_nonmonotonicity",
+      "role": "Supporting explicit Gaussian construction refuting coordinatewise local monotonicity in negative null means"
+    },
+    {
+      "id": "gaussian_bh_two_sided_sharp_upper",
+      "role": "Sharp uniform upper bound or a verified asymptotic refutation for two-sided tests"
+    },
+    {
+      "id": "gaussian_bh_one_sided_sharp_upper",
+      "role": "Sharp uniform upper bound or a verified asymptotic refutation for one-sided tests"
+    }
+  ],
+  "approvedAt": "2026-11-04T12:18:09.205Z",
+  "performed_by": "unknown"
+}

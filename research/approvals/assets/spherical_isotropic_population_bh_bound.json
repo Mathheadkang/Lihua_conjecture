@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "spherical_isotropic_population_bh_bound",
+  "digest": "bf2561234476d63eb202fddd30728913c273853087ca757075988ee22d55a775",
+  "approvedAt": "2026-11-05T08:08:18.164Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "6909caa2801e56b1b457f82e3e23986c42d944b50096ec7cb39f26291eeb6bb7",
+  "extension_version": "0.0.4"
+}

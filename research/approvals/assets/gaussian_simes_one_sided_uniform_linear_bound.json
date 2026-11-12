@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_simes_one_sided_uniform_linear_bound",
+  "digest": "15d52b3eb80faa8138461b0390ec347f4eb6a5465aae5494d0e050fea1bae614",
+  "approvedAt": "2026-11-09T04:38:53.736Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "15d52b3eb80faa8138461b0390ec347f4eb6a5465aae5494d0e050fea1bae614",
+  "extension_version": "0.0.4"
+}

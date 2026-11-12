@@ -1,0 +1,26 @@
+{
+  "revision": 12,
+  "digest": "cfc0fde5564ba99a7434b416542386ba83b67c3766b2cb7affe6ef545be4bbe6",
+  "facets": {
+    "problem": "d889bdc0e9dad247e8fb44b02f6064554302fbf0e4e1dd167727097396a9afe6",
+    "scope": "5b2cf5e5c2ce7ace3df0621ecc2c777e4d9f291619c90bc3d7fa8d12c8160798",
+    "contribution": "b6f5355f9ea53b33edb73fbf623782c5af7d8942ec357a2654a74c458e2a5cf8",
+    "required": "c3c37668a861f43908ed7dcd1f55251b4e7502f7405fb1320d83eb6e5ad6e0c0"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Current phase first priority - universal finite-constant order bound for unrestricted one-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Current phase second priority - separately proved universal finite-constant order bound for unrestricted two-sided Gaussian BH"
+    },
+    {
+      "id": "gaussian_bh_mixed_coherence_trace_budget",
+      "role": "Auxiliary two-scale repair from the second autonomous reassessment - test the mixed square-root and entropy-linear Mills trace budget while preserving both main goals and the refuted earlier budget"
+    }
+  ],
+  "approvedAt": "2026-11-08T09:52:58.432Z",
+  "performed_by": "unknown"
+}

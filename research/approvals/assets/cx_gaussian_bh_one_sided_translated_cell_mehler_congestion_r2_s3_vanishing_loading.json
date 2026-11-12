@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "cx_gaussian_bh_one_sided_translated_cell_mehler_congestion_r2_s3_vanishing_loading",
+  "digest": "66f72f386948f1735c28d56e79301709fb2b73f281be4f7f1da1c59ecfe9ea9e",
+  "approvedAt": "2026-11-10T23:14:29.559Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "66f72f386948f1735c28d56e79301709fb2b73f281be4f7f1da1c59ecfe9ea9e",
+  "extension_version": "0.0.4"
+}

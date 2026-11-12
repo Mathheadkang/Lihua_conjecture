@@ -1,0 +1,10 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_block_deficit_curve_reduction",
+  "digest": "991e38dbad98fc9ff0b01369ac5f462dac9f029a16d83cfc3ad4d89926c3d6fd",
+  "approvedAt": "2026-11-06T21:57:24.745Z",
+  "source": "auto",
+  "performed_by": "unknown",
+  "statement": "f1dda2f50a23bcb44d5591faa42a4ed7c15018980386fbefca5819ed441dbef8",
+  "extension_version": "0.0.4"
+}
