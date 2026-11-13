@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "gaussian_simes_fixed_level_amplification",
+  "digest": "bc60bf57354c1f182e5ac0ead7a258e30516fc9738b86caa579b076b10e11f60",
+  "approvedAt": "2026-11-12T19:10:11.965Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "b6a407fa54e9d1cd926525fbc5f6a3e04eae9e8c1c54cb093f1fed66465a084f",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

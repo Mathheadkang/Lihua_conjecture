@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "gaussian_simes_dense_crossing_tilt_bound",
+  "digest": "5816b2401626c721ff8bdcb9c3e0c7070fe4b209302ec43ced080cce866c763b",
+  "approvedAt": "2026-11-12T19:19:05.247Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "6e714bc6bdb2353b928e977aa5b3c27aa068b24a6df42caf55510b6b8e0b24c8",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

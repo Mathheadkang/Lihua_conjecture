@@ -1,0 +1,27 @@
+{
+  "revision": 36,
+  "digest": "626eb37807127a737a9715879110edb4058bf20591002c1058f07b4e836d9f8a",
+  "facets": {
+    "problem": "acc272aa1fe27c4d83f4651bd23f41911edd9c34267fe24adf319452a44c78dc",
+    "scope": "d56a075fe88429d76cd22b1f025ad84c8b2a16986145de2df95f1d89dcb434f5",
+    "contribution": "29dcb686405ece9c5d5b0ff52e999d192e2a984578221533417861f90c0c427d",
+    "required": "a698f3ecaaee0f877865996dd80a65c62303a849fc7f79034849ea7529844104"
+  },
+  "required_results": [
+    {
+      "id": "gaussian_bh_one_sided_universal_order_upper",
+      "role": "Primary mathematical target - unrestricted one-sided universal expected-FDR order bound"
+    },
+    {
+      "id": "gaussian_bh_two_sided_universal_order_upper",
+      "role": "Final deliverable - unrestricted two-sided order bound, allowing the verified signed-duplication corollary"
+    },
+    {
+      "id": "gaussian_simes_one_sided_uniform_linear_bound",
+      "role": "Researcher-added goal (12 November 2026) - global-null one-sided Gaussian Simes rejection probability at most Cq under arbitrary correlation"
+    }
+  ],
+  "approvedAt": "2026-11-12T18:52:01.737Z",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce"
+}

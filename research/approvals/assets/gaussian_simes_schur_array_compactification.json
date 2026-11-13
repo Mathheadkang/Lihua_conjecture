@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "gaussian_simes_schur_array_compactification",
+  "digest": "c036bbdeaecaf0d534a0f063bd3d9b624bdf1b00bd8a1f1854d3c5e18774afe3",
+  "approvedAt": "2026-11-13T05:58:02.976Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "3ff8e143d2d88073822e605c70956af7082d952917d813001866b18b04299581",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

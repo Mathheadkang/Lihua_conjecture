@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "gaussian_simes_clone_block_schur_variation_bound",
+  "digest": "ffb963faa9b929525a09e9ead80d249690b90a8818475cf22456f07795eed275",
+  "approvedAt": "2026-11-13T01:02:29.713Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "9745c7f1d8f7ae5518e033eec521fe69f3dee7d75adf2262924621d839195795",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

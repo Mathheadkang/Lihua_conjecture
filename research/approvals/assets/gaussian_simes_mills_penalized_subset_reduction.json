@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "gaussian_simes_mills_penalized_subset_reduction",
+  "digest": "4090364001fc7c4171d6ccf100e586e40d80008250f9e797a7643dcb6cb94417",
+  "approvedAt": "2026-11-12T21:35:03.243Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "d8696dc0ee5040d69e3a44c44fe818131df421b54610842f2b5ca99f0ec56f89",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

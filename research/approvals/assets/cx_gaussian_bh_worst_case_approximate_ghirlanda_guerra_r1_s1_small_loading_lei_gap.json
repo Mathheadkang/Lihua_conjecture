@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "cx_gaussian_bh_worst_case_approximate_ghirlanda_guerra_r1_s1_small_loading_lei_gap",
+  "digest": "c259ca8f9721a3d7181fb604721b37f16dc7d6e07a64fd452ad3849cc908f4e2",
+  "approvedAt": "2026-11-12T07:29:35.707Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "c259ca8f9721a3d7181fb604721b37f16dc7d6e07a64fd452ad3849cc908f4e2",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_angular_cluster_entropy_bound",
+  "digest": "a709c0e71d18dc5252421b3ab533e73e445eae3473b2719790d450d802e468a7",
+  "approvedAt": "2026-11-12T05:54:02.082Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "c0f4a35d70bb8c3321136accd04202b71bb70ae9a12fd0aaa5c3d48abe6e1b98",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

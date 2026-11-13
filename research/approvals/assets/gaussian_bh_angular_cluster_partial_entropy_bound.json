@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "gaussian_bh_angular_cluster_partial_entropy_bound",
+  "digest": "faad3aff1c1e0079c3073de5cf2e07ba55ea99d48c122b7a9c47191917fe2ef3",
+  "approvedAt": "2026-11-12T06:22:32.094Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "736750aaadb60109c2ce46215b308676bc7a0cd9e89173948fa97978fa8123b1",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

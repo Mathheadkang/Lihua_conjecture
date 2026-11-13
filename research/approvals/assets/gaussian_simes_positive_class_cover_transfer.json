@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "gaussian_simes_positive_class_cover_transfer",
+  "digest": "b5b3377c415f667064b328f5889966fc405ab2b15c97e0ee579beddfaa52f005",
+  "approvedAt": "2026-11-12T19:29:35.383Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "6f5e1db93cf32b89012029bd947a756bef6f729d9d2aea6b980ed9894daae7fb",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

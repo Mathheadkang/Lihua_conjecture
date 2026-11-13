@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "cx_gaussian_bh_null_overlap_ghirlanda_guerra_maximizer_r1_s1_large_eta_antipodal_nulls",
+  "digest": "c5c9f07a4cb47c55f68a928d645f5427f1bda37d1a135e7ae72e2ff3cc381f4d",
+  "approvedAt": "2026-11-12T08:19:43.571Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "c5c9f07a4cb47c55f68a928d645f5427f1bda37d1a135e7ae72e2ff3cc381f4d",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

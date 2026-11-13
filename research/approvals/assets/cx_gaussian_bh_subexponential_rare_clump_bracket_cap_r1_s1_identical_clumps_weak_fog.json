@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "cx_gaussian_bh_subexponential_rare_clump_bracket_cap_r1_s1_identical_clumps_weak_fog",
+  "digest": "86097c7666c7abca8363dfc371a19b1541ad2d602644facab312fa972605ca19",
+  "approvedAt": "2026-11-12T06:56:09.192Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "86097c7666c7abca8363dfc371a19b1541ad2d602644facab312fa972605ca19",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

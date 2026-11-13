@@ -1,0 +1,11 @@
+{
+  "kind": "asset",
+  "target": "bh_clump_bracket_pathwise_bound",
+  "digest": "a76ce994e34a826eae281f1b03799e291f1c5781693f74d29add8d71f270d312",
+  "approvedAt": "2026-11-12T06:38:19.154Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "statement": "505283800a561693969245cf14db866c63b7fbf613631c942f088194185139db",
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce",
+  "extension_version": "0.0.4"
+}

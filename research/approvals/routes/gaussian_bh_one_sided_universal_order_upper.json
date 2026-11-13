@@ -1,0 +1,40 @@
+{
+  "kind": "routes",
+  "target": "gaussian_bh_one_sided_universal_order_upper",
+  "digest": "9a119d50c087dcc85ef4776569f151d9b5605afee2ef2f974163a4fec1cb9b68",
+  "statement": "4fe10575d36df3f3f1d7a5d3b02045f11cc1642e336a0a94fe50ce0a9f321484",
+  "approvedAt": "2026-11-12T04:25:12.705Z",
+  "source": "auto",
+  "performed_by": "52538116+Mathheadkang@users.noreply.github.com",
+  "nodes": {
+    "route_gaussian_bh_one_sided_universal_order_upper_r1_s1_angular_chaining_rare_cap": {
+      "digest": "99f0bb7fd3d4572d3733dd49e878e6f94272339a81d980921a87988b0d9cbeb0",
+      "statement": "4fe10575d36df3f3f1d7a5d3b02045f11cc1642e336a0a94fe50ce0a9f321484"
+    },
+    "route_gaussian_bh_one_sided_universal_order_upper_r1_s2_compound_poisson_clump_cap": {
+      "digest": "6142028291674e9d3ce83bb5387f2068f9458d7bd5527ee51b418bab30384838",
+      "statement": "4fe10575d36df3f3f1d7a5d3b02045f11cc1642e336a0a94fe50ce0a9f321484"
+    },
+    "route_gaussian_bh_one_sided_universal_order_upper_r1_s3_ultrametric_ghirlanda_guerra": {
+      "digest": "9cfe8d38b80a8be29fff46df16821c469ea677f64284cba61e46a0e9a7db82a7",
+      "statement": "4fe10575d36df3f3f1d7a5d3b02045f11cc1642e336a0a94fe50ce0a9f321484"
+    },
+    "route_gaussian_bh_one_sided_universal_order_upper_r1_s4_sign_split_refined_linking": {
+      "digest": "9c559e0bfdc83057e835602f0ecafcfe4ee56d6201f8fe68be78e1efc11e47bb",
+      "statement": "4fe10575d36df3f3f1d7a5d3b02045f11cc1642e336a0a94fe50ce0a9f321484"
+    },
+    "route_gaussian_bh_one_sided_universal_order_upper_r1_s5_null_ultrametric_trees": {
+      "digest": "f3b3c45f2ed7fab1c7c1acdc62a6886771f3a66e2b13ea34ede00e25d86c878b",
+      "statement": "4fe10575d36df3f3f1d7a5d3b02045f11cc1642e336a0a94fe50ce0a9f321484"
+    },
+    "route_gaussian_bh_one_sided_universal_order_upper_r1_s6_frozen_ray_stopped_martingale": {
+      "digest": "073ec6e8d4fc4903aef5f8c6a1d8e9b6a8572030226379e09e396b8eebd86c27",
+      "statement": "4fe10575d36df3f3f1d7a5d3b02045f11cc1642e336a0a94fe50ce0a9f321484"
+    },
+    "route_gaussian_bh_one_sided_universal_order_upper_r1_s7_angular_chaining_rare_cap": {
+      "digest": "c70f3e5de11b438c034509f3c44de8ae5b1ade6dd3f0d1ab4c17faaa8be24045",
+      "statement": "4fe10575d36df3f3f1d7a5d3b02045f11cc1642e336a0a94fe50ce0a9f321484"
+    }
+  },
+  "base_commit": "98aac83f1d5b2ff948788ff34d4eaccd70d3ddce"
+}
